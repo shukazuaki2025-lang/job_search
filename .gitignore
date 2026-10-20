@@ -1,0 +1,8 @@
+# Never commit credentials or raw unredacted emails
+.env
+*.env.local
+emails/raw_drop/*.eml
+emails/raw_drop/*.mbox
+__pycache__/
+*.pyc
+.DS_Store
