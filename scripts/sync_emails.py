@@ -43,11 +43,14 @@ CATEGORIES: List[Tuple[str, str]] = [
 ]
 
 LOCATIONS: List[Tuple[str, str]] = [
-    ("江苏·南京（含南信大及周边）", "江苏_南京_含南信大周边"),
+    ("南京其他区域 / 具体工作地址待核", "江苏_南京_其他区域或地址待核"),
     ("江苏·苏锡常及其他（苏州/无锡/常州/昆山等）", "江苏_苏州_无锡_常州等"),
     ("上海", "上海"),
     ("浙江（杭州/宁波等）", "浙江_杭州_宁波等"),
     ("长三角多城综合 / 国际及其他", "其他或待确认地点"),
+    ("南信大周边企业岗位线索（非在招或资格认证）", "南信大周边_企业实习线索"),
+    ("南信大校内科研实训（非企业实习）", "南信大校内_科研实训"),
+    ("江北扩展区（通勤待核）", "江北扩展区_通勤待核"),
 ]
 
 
@@ -179,6 +182,28 @@ def classify_email(subject: str, sender: str, body: str, raw_cat: str = "") -> D
     else:
         loc_label, loc_slug = LOCATIONS[4]
 
+    # Geography is evidence-based: a school name or headquarters is not a workplace.
+    workplace = "\n".join(re.findall(
+        r"(?:工作地点|工作地址|办公地点|办公地址|实习地点)[：: \t]*([^\n；;]+)", body
+    ))
+    if cat_slug == "南信大课题组科研实训":
+        loc_label, loc_slug = LOCATIONS[6]
+    elif cat_slug == "长三角高新企业晨报":
+        # Digests contain multiple jobs/cities. Do not mark an entire digest as nearby.
+        loc_label, loc_slug = LOCATIONS[4]
+    elif workplace and any(k in workplace for k in ("江宁", "栖霞", "雨花", "建邺", "秦淮", "玄武", "鼓楼", "溧水", "高淳")):
+        loc_label, loc_slug = LOCATIONS[0]
+    elif workplace and any(k in workplace for k in ("孵鹰大厦", "团结路", "研创园", "浦滨路", "江浦")):
+        loc_label, loc_slug = LOCATIONS[7]
+    elif workplace and any(k in workplace for k in ("南京", "江北新区", "浦口")) and any(k in workplace for k in ("星火路", "盘城", "新科路", "龙泰路", "泰山")):
+        loc_label, loc_slug = LOCATIONS[5]
+    elif workplace and any(k in workplace for k in ("苏州", "无锡", "常州", "昆山", "张家港")):
+        loc_label, loc_slug = LOCATIONS[1]
+    elif workplace and any(k in workplace for k in ("杭州", "宁波", "浙江")):
+        loc_label, loc_slug = LOCATIONS[3]
+    elif workplace and "上海" in workplace:
+        loc_label, loc_slug = LOCATIONS[2]
+
     return {
         "direction_label": dir_label,
         "direction_slug": dir_slug,
@@ -237,20 +262,23 @@ def render_table(items: List[Dict], rel_prefix: str = "./archive") -> str:
     if not items:
         return "> 当前分类暂无归档邮件。\n"
     lines = [
-        "| 时间 | 主题 | 发件方/来源 | 技术方向 | 邮件类别 | 工作地点 | 脱敏全文 |",
-        "| :--- | :--- | :--- | :--- | :--- | :--- | :--- |",
+        "| 时间 | 技术方向 | 邮件类别 | 工作地点 | 既有归档 |",
+        "| :--- | :--- | :--- | :--- | :--- |",
     ]
     for item in items:
-        safe_subj = item["subject"].replace("|", "｜")
-        safe_sender = item["sender"].replace("|", "｜").replace("<", "&lt;").replace(">", "&gt;")
         link = f"[查看详情]({rel_prefix}/{item['id']}.md)"
         lines.append(
-            f"| `{item['date']}` | **{safe_subj}** | {safe_sender} | {item['direction_label']} | {item['category_label']} | {item['location_label']} | {link} |"
+            f"| `{item['date']}` | {item['direction_label']} | {item['category_label']} | {item['location_label']} | {link} |"
         )
     return "\n".join(lines) + "\n"
 
 
 def build_markdown_views(all_items: List[Dict]) -> None:
+    # Rebuild location fields for historical records too; no mailbox re-import needed.
+    for item in all_items:
+        labels = classify_email(item["subject"], item["sender"], item["body"])
+        item["location_label"] = labels["location_label"]
+        item["location_slug"] = labels["location_slug"]
     EMAILS_DIR.mkdir(parents=True, exist_ok=True)
     ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
     dir_folder = EMAILS_DIR / "by_direction"
@@ -322,7 +350,8 @@ def build_markdown_views(all_items: List[Dict]) -> None:
     index_lines = [
         "# 📬 求职与实习邮件三维分类归档中心（方向 × 类别 × 工作地点）",
         "",
-        f"> **绑定邮箱**：`shukazuaki2025@gmail.com` | **最近同步时间**：`{now_str}` | **已归档邮件总数**：**`{len(all_items)}` 封**",
+        f"> **最近索引生成时间**：`{now_str}` | **已归档邮件总数**：**`{len(all_items)}` 封**（索引重建不代表新同步邮箱）",
+        "> **周边岗位专页**：[南信大周边实习](../nearby_internships/README.md)；校内科研、江北扩展区及南京其他区域分别浏览。邮件归档不等于有效招聘。",
         "> **隐私保护策略**：所有同步至本仓库的邮件均经过正则自动脱敏（隐去个人手机号、身份证号、验证码及带私密 Token 的链接）。",
         "",
         "---",
@@ -394,8 +423,8 @@ def main() -> None:
 
     all_items = list(existing.values())
     EMAILS_DIR.mkdir(parents=True, exist_ok=True)
-    DATA_FILE.write_text(json.dumps(all_items, ensure_ascii=False, indent=2), encoding="utf-8")
     build_markdown_views(all_items)
+    DATA_FILE.write_text(json.dumps(all_items, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[OK] 已生成三维分类索引（共 {len(all_items)} 封邮件）-> {EMAILS_DIR / 'INDEX.md'}")
 
     if args.push:
@@ -409,3 +438,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
