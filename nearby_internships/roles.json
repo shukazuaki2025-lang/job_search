@@ -1,0 +1,612 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-10-23",
+  "timezone": "Asia/Singapore",
+  "scope": {
+    "school": "南京信息工程大学本部",
+    "graduation_year": 2028,
+    "degree": "本科",
+    "major": "自动化",
+    "max_one_way_km": 10,
+    "current_term_days": "不固定",
+    "winter_2027": "可实习，具体起止未确定",
+    "spring_2027_days_per_week": "3-5，可持续较久；未承诺固定5天"
+  },
+  "counts": {
+    "priority": 4,
+    "jiangbei_extended": 3,
+    "jiangnan_extended": 3,
+    "nontechnical_observation": 1,
+    "total_records": 11,
+    "exclusion_groups": 12,
+    "fully_confirmed_all_constraints": 0
+  },
+  "notes": [
+    "路线未实测；直线距离不能代表通勤",
+    "公司联系地址不等于岗位工位",
+    "未知不等于不限",
+    "页面可申请不等于有实际名额",
+    "本轮未联系和投递"
+  ],
+  "records": [
+    {
+      "id": "P01",
+      "category": "周边重点",
+      "company": "南京蔚空微纳科技有限公司",
+      "title": "硬件测试实习生",
+      "verified_on": "2026-10-23",
+      "source_urls": [
+        "https://m.zhipin.com/job_detail/23dae12ef49d69830nF73tu6GFNX.html",
+        "https://m.zhipin.com/zhaopin/1adc6d40457925f51HZy09i_EA~~/",
+        "https://www.vacuumnano.cn/lianxiwomen.html"
+      ],
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "job_workplace_confirmed": false,
+      "road_distance_km": null,
+      "road_distance_confirmed": false,
+      "commute_limit_km": 10,
+      "published_on": null,
+      "updated_on": null,
+      "deadline": null,
+      "status": "候选待核，非确认可投",
+      "degree": "大专",
+      "major": "未获得",
+      "cohort_requirement": "未写",
+      "days_per_week": null,
+      "minimum_months": null,
+      "hard_requirements": [],
+      "hard_requirements_note": "完整JD未获取",
+      "preferred_skills": [],
+      "work_summary": "X射线设备安装调试测试、保养校验维修与客户支持",
+      "company_address": "龙泰路8号润诚科技园7幢2层",
+      "job_workplace": "浦口沿江，精确工位待核",
+      "pay": "100-110元/天",
+      "current_open_evidence": "BOSS检索列表仍展示具体岗位；详情安全验证，未获招聘人确认",
+      "winter_fit": "未确认",
+      "next_term_fit": "待核天数和周期",
+      "next_action": "先核2028届、具体工位、每周天数、月数及2027寒假入职"
+    },
+    {
+      "id": "P02",
+      "category": "周边重点",
+      "company": "铭想芯创",
+      "title": "嵌入式软件实习生",
+      "verified_on": "2026-10-23",
+      "source_urls": [
+        "https://www.zhipin.com/job_detail/9a8227aa51b229f503J73NW-EVZZ.html",
+        "https://www.zhipin.com/zhaopin/91a278c2f09ca94803J-2di9Fw~~/"
+      ],
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "job_workplace_confirmed": false,
+      "road_distance_km": null,
+      "road_distance_confirmed": false,
+      "commute_limit_km": 10,
+      "published_on": null,
+      "updated_on": null,
+      "deadline": null,
+      "status": "列表线索，完整JD受限",
+      "degree": "本科（列表）",
+      "major": null,
+      "cohort_requirement": "未写，2028届待确认",
+      "days_per_week": null,
+      "minimum_months": null,
+      "hard_requirements": [],
+      "hard_requirements_note": "未获得完整JD；不能移用聚合页其他公司要求",
+      "preferred_skills": [],
+      "company_address": null,
+      "job_workplace": "浦口泰山，门牌未获得",
+      "pay": "旧核验列表80-160元/天，本轮完整JD未复核，不作确定待遇",
+      "current_open_evidence": "搜索列表展示；实际名额未知",
+      "winter_fit": "未知",
+      "next_term_fit": "待核每周天数、连续月数",
+      "next_action": "先核门牌和技术平台、2028届及出勤"
+    },
+    {
+      "id": "P03",
+      "category": "周边重点",
+      "company": "南京晶捷生物科技有限公司",
+      "title": "硬件测试实习生",
+      "verified_on": "2026-10-23",
+      "source_urls": [
+        "https://www.zhaopin.com/jobdetail/CC659275730J40853323711.htm",
+        "https://www.eaglenos.com/contact"
+      ],
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "job_workplace_confirmed": false,
+      "road_distance_km": null,
+      "road_distance_confirmed": false,
+      "commute_limit_km": 10,
+      "published_on": null,
+      "updated_on": null,
+      "deadline": null,
+      "status": "详情可读，名额待核",
+      "degree": "本科及以上",
+      "major": [
+        "机械电子",
+        "计算机",
+        "自动化等相关专业"
+      ],
+      "cohort_requirement": "未写；未确认2028届可投",
+      "days_per_week": 5,
+      "minimum_months": 6,
+      "hard_requirements": [
+        "相关专业本科及以上",
+        "良好沟通和学习能力",
+        "每周5天，6个月"
+      ],
+      "preferred_skills": [],
+      "work_summary": "整机功能及可靠性验证、测试报告",
+      "company_address": "南京江北新区探秘路73号树屋十六栋B2-2栋",
+      "job_workplace": "仅公开南京浦口区，具体地址登录遮挡",
+      "pay": "登录后显示，金额未知",
+      "current_open_evidence": "具体岗位详情可读并有企业在招职位入口；无具体岗位公开更新日期，未确认名额",
+      "winter_fit": "不匹配6个月要求",
+      "next_term_fit": "条件性匹配：需要5天/周并连续6个月",
+      "next_action": "每周能保底5天、连续6个月时再重点问；确认2028届和实际工位"
+    },
+    {
+      "id": "P04",
+      "category": "周边重点",
+      "company": "丁丁停车",
+      "title": "项目售后支持专员",
+      "verified_on": "2026-10-23",
+      "source_urls": [
+        "https://www.shixiseng.com/intern/inn_ykqvmkpmitga"
+      ],
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "job_workplace_confirmed": true,
+      "road_distance_km": null,
+      "road_distance_confirmed": false,
+      "commute_limit_km": 10,
+      "published_on": null,
+      "updated_on": "2026-09-16",
+      "deadline": "2026-10-24",
+      "status": "页面可申请，未过截止；名额待核",
+      "degree": "大专",
+      "major": "弱电方向优先",
+      "cohort_requirement": "未写，2028届待确认",
+      "days_per_week": 3,
+      "minimum_months": 3,
+      "hard_requirements": [
+        "沟通、执行与细心",
+        "3天/周、3个月"
+      ],
+      "preferred_skills": [
+        "弱电相关方向"
+      ],
+      "work_summary": "设备调试辅助，兼售后、物流及实施协调",
+      "company_address": null,
+      "job_workplace": "南京浦口区星火路20号垠坤·星火E方",
+      "pay": "100-150元/天",
+      "current_open_evidence": "核验日公开页有投递入口且截止未过，不保证实际名额",
+      "straight_line_reference_km": 5.8,
+      "winter_fit": "单独数周不足3个月；需确认2027寒假开始且续做，届时页面已过原截止",
+      "next_term_fit": "每周固定3天并连续3个月时，时间条件有机会满足；入职批次和2028未确认",
+      "next_action": "截止前先核2028届、未来入职、外派及工作比例"
+    },
+    {
+      "id": "E01",
+      "category": "江北扩展",
+      "company": "南京起拓科技有限公司",
+      "title": "硬件测试助理工程师",
+      "verified_on": "2026-10-23",
+      "source_urls": [
+        "https://www.yupao.com/zhaogong/337761429.html",
+        "https://m.zhipin.com/zhaopin/1adc6d40457925f51HZy09i_EA~~/"
+      ],
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "job_workplace_confirmed": false,
+      "road_distance_km": null,
+      "road_distance_confirmed": false,
+      "commute_limit_km": 10,
+      "published_on": null,
+      "updated_on": null,
+      "deadline": null,
+      "status": "在读日薪岗位，实习协议性质仍待核",
+      "degree": "本科",
+      "major": "电子、通信、计算机、自动化、信息工程相关专业在读",
+      "cohort_requirement": "未限定届次；在读身份符合但未明确接受2028",
+      "days_per_week": null,
+      "minimum_months": null,
+      "hard_requirements": [
+        "了解雷达及射频产品",
+        "对硬件测试有兴趣",
+        "沟通协作及抗压学习能力"
+      ],
+      "preferred_skills": [
+        "英语能力突出"
+      ],
+      "company_address": null,
+      "job_workplace": "南京浦口区腾飞大厦C座10（原页字段，未补写楼层）；研创园楼宇，非工商华创路",
+      "pay": "200-300元/天",
+      "current_open_evidence": "具体页显示职位26天内有效；不反推绝对日期，未获招聘人确认",
+      "winter_fit": "未确认",
+      "next_term_fit": "待核天数和周期，通勤不合约束",
+      "commute_note": "不默认纳入10公里，需核工位与道路路线",
+      "next_action": "先核路线与实习性质，再核2028届、天数月数"
+    },
+    {
+      "id": "E02",
+      "category": "江北扩展",
+      "company": "南京起拓科技有限公司",
+      "title": "外场硬件测试实习生",
+      "verified_on": "2026-10-23",
+      "source_urls": [
+        "https://m.yupao.com/qiye/199071094.html",
+        "https://www.jobui.com/company/18035513/jobs/"
+      ],
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "job_workplace_confirmed": false,
+      "road_distance_km": null,
+      "road_distance_confirmed": false,
+      "commute_limit_km": 10,
+      "published_on": null,
+      "updated_on": null,
+      "deadline": null,
+      "status": "具体实习在列表展示，完整条件与工作地待核",
+      "degree": "本科，经验不限",
+      "major": "未完整获得",
+      "cohort_requirement": "未写；聚合片段偏即将毕业，不推定接受2028",
+      "days_per_week": null,
+      "minimum_months": null,
+      "hard_requirements": [],
+      "hard_requirements_note": "完整JD未获得；列表出现频谱分析仪、信号发生器等标签，不知要求程度",
+      "preferred_skills": [],
+      "preferred_skills_note": "英语优秀为列表标签，硬性或优先语气未知",
+      "company_address": null,
+      "job_workplace": "仅南京浦口区；外场工作地点待核；注册地不作工作地址",
+      "pay": "150-200元/天",
+      "current_open_evidence": "公司列表显示当前16条在招并列该实习；未获招聘人确认",
+      "winter_fit": "未确认",
+      "next_term_fit": "待核",
+      "commute_note": "不默认纳入10公里，需核工位与道路路线",
+      "next_action": "先核路线与实习性质，再核2028届、天数月数"
+    },
+    {
+      "id": "E03",
+      "category": "江北扩展",
+      "company": "圭步微电子（南京）有限公司",
+      "title": "毫米波雷达芯片测试实习生",
+      "verified_on": "2026-10-23",
+      "source_urls": [
+        "https://www.zhipin.com/job_detail/880a5a42d2c06cbd0nJ-09q6FFpS.html",
+        "https://www.arcomicro.com/careers.html"
+      ],
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "job_workplace_confirmed": false,
+      "road_distance_km": null,
+      "road_distance_confirmed": false,
+      "commute_limit_km": 10,
+      "published_on": null,
+      "updated_on": null,
+      "deadline": null,
+      "status": "官网挂出具体实习，详情与HC待核",
+      "degree": "未知",
+      "major": "未知",
+      "cohort_requirement": "未写",
+      "days_per_week": null,
+      "minimum_months": null,
+      "hard_requirements": [],
+      "preferred_skills": [],
+      "company_address": null,
+      "job_workplace": "官网南京办公室：江北新区孵鹰大厦A座309室；岗位工位待核",
+      "pay": "未获得",
+      "current_open_evidence": "官网实习生分类仍挂该岗及投递链接，BOSS详情验证，未获HC确认",
+      "winter_fit": "未确认",
+      "next_term_fit": "待核",
+      "commute_note": "不默认纳入10公里，需核工位与道路路线",
+      "next_action": "先核路线与实习性质，再核2028届、天数月数"
+    },
+    {
+      "id": "E04",
+      "category": "江南扩展",
+      "company": "朋创南分",
+      "title": "软件工程师实习生（VCU）",
+      "verified_on": "2026-10-23",
+      "source_urls": [
+        "https://www.shixiseng.com/intern/inn_hwjhcpsxvmkf"
+      ],
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "job_workplace_confirmed": false,
+      "road_distance_km": null,
+      "road_distance_confirmed": false,
+      "commute_limit_km": 10,
+      "published_on": null,
+      "updated_on": "2026-07-08 11:55:18",
+      "deadline": "2026-12-31",
+      "status": "公开页仍有投递入口且未过截止；企业实际名额未确认",
+      "degree": "本科及以上",
+      "major": "计算机、自动化、电子信息等相关",
+      "cohort_requirement": "未写，2028届未确认",
+      "days_per_week": 5,
+      "minimum_months": null,
+      "duration_note": "头部3个月；正文要求可长期，长期下限未写",
+      "hard_requirements": [
+        "了解DSP/ARM",
+        "掌握C语言",
+        "接触UART/CAN/I2C/SPI等接口协议",
+        "学习使用过Matlab/Simulink",
+        "汽车电子兴趣"
+      ],
+      "preferred_skills": [],
+      "company_address": null,
+      "job_workplace": "南京市栖霞区广月路十月公社科创园S10栋2楼",
+      "pay": "100-200元/天",
+      "current_open_evidence": "公开页仍有投递入口且未过截止；企业实际名额未确认",
+      "winter_fit": "单独寒假不足3个月；2027寒假已过页面12/31截止",
+      "next_term_fit": "至少需要固定5天，且跨区通勤未纳入10公里主推",
+      "commute_note": "江南跨区备选，不作为10公里日常主推",
+      "next_action": "2026年底前核2028届、寒假开始与春季续做"
+    },
+    {
+      "id": "E05",
+      "category": "江南扩展",
+      "company": "南京城铁信息技术有限公司",
+      "title": "硬件实习工程师",
+      "verified_on": "2026-10-23",
+      "source_urls": [
+        "https://www.zhaopin.com/jobdetail/CC240710580J40800736806.htm"
+      ],
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": true,
+      "job_workplace_confirmed": false,
+      "road_distance_km": null,
+      "road_distance_confirmed": false,
+      "commute_limit_km": 10,
+      "published_on": null,
+      "updated_on": null,
+      "deadline": null,
+      "status": "公开职位页可访问；无明确截止或更新，当前实际在招未确认",
+      "degree": "本科及以上",
+      "major": "电子、通信、自动化、计算机相关",
+      "cohort_requirement": "明确2027/2028/2029届",
+      "days_per_week": 5,
+      "minimum_months": null,
+      "duration_note": "头部6个月；正文至少3个月以上，存在冲突需确认",
+      "hard_requirements": [
+        "模电数电和读原理图",
+        "UART/I2C/SPI/RS232/485/CAN/以太网等接口",
+        "万用表和示波器等仪器",
+        "ARM/STM32基本开发流程",
+        "传感器或摄像头调试",
+        "网络配置基础",
+        "接受出差",
+        "CAD/SolidWorks类绘图"
+      ],
+      "preferred_skills": [
+        "C/C++基础",
+        "电子竞赛/硬件项目/实验室经验",
+        "南京地区偏好"
+      ],
+      "company_address": null,
+      "job_workplace": "南京雨花台区，具体地址公开页遮挡",
+      "pay": "130-150元/天（正文）；头部隐藏",
+      "current_open_evidence": "公开职位页可访问；无明确截止或更新，当前实际在招未确认",
+      "winter_fit": "单独寒假不足已列3个月或6个月要求",
+      "next_term_fit": "至少需要固定5天，且跨区通勤未纳入10公里主推",
+      "commute_note": "江南跨区备选，不作为10公里日常主推",
+      "next_action": "核最少3还是6个月、实际地址、出差及名额"
+    },
+    {
+      "id": "E06",
+      "category": "江南扩展",
+      "company": "一叶信息科技发展有限公司",
+      "title": "电子测试实习生",
+      "verified_on": "2026-10-23",
+      "source_urls": [
+        "https://www.shixiseng.com/intern/inn_nm99vvydpexb?pcm=pc_SearchList"
+      ],
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "job_workplace_confirmed": false,
+      "road_distance_km": null,
+      "road_distance_confirmed": false,
+      "commute_limit_km": 10,
+      "published_on": null,
+      "updated_on": "2026-10-09 11:01:31",
+      "deadline": "2027-10-10",
+      "status": "公开页有投递入口、未来截止及10月刷新；企业实际名额未确认",
+      "degree": "正文大专及以上；头部学历不限，按正文评估",
+      "major": "电子信息类等相关；自动化未明确",
+      "cohort_requirement": "未写，2028届未确认",
+      "days_per_week": 5,
+      "minimum_months": null,
+      "duration_note": "3个月",
+      "hard_requirements": [
+        "熟练用万用表",
+        "读简单电路",
+        "基本动手与记录能力"
+      ],
+      "preferred_skills": [
+        "示波器",
+        "基础电路知识"
+      ],
+      "company_address": null,
+      "job_workplace": "南京江宁区国信慧谷软件园A栋",
+      "pay": "3000元/月（正文）；头部薪资面议",
+      "current_open_evidence": "公开页有投递入口、未来截止及10月刷新；企业实际名额未确认",
+      "winter_fit": "单独寒假不足已列3个月或6个月要求",
+      "next_term_fit": "至少需要固定5天，且跨区通勤未纳入10公里主推",
+      "commute_note": "江南跨区备选，不作为10公里日常主推",
+      "next_action": "核自动化专业接收、待遇冲突及测试内容"
+    },
+    {
+      "id": "O01",
+      "category": "非技术观察",
+      "company": "南京澳尼恩",
+      "title": "仪器销售实习生（页面题名：销售）",
+      "verified_on": "2026-10-23",
+      "source_urls": [
+        "https://www.shixiseng.com/intern/inn_no9yz9vivq4h"
+      ],
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "job_workplace_confirmed": true,
+      "road_distance_km": null,
+      "road_distance_confirmed": false,
+      "commute_limit_km": 10,
+      "published_on": null,
+      "updated_on": "2026-10-12 14:03:28",
+      "deadline": "2026-11-12",
+      "status": "非技术主线备选",
+      "degree": "卡片不限；正文专科或本科及以上",
+      "major": [
+        "市场营销",
+        "电气",
+        "机械",
+        "理工科"
+      ],
+      "cohort_requirement": "未写",
+      "days_per_week": 5,
+      "minimum_months": 6,
+      "hard_requirements": [
+        "正文专科及以上",
+        "沟通表达与市场判断能力",
+        "客户服务意识与责任心",
+        "5天/周，6个月"
+      ],
+      "preferred_skills": [
+        "理工科背景"
+      ],
+      "company_address": null,
+      "job_workplace": "南京浦口区兴隆路9号4号楼",
+      "pay": "150元/天，另有浮动开户奖金/提成/年终奖",
+      "current_open_evidence": "核查日截止未到、公开详情有投递入口；未确认剩余名额",
+      "winter_fit": "不匹配6个月要求",
+      "next_term_fit": "需要5天/周6个月",
+      "next_action": "仅本人主动考虑技术销售时再核实，不作为技术主线"
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "X01",
+      "company": "圭步微电子（南京）有限公司",
+      "title": "嵌入式软件开发实习生",
+      "reason": "BOSS列表明确硕士，本科当前不满足；江浦远距",
+      "source_urls": [
+        "https://www.arcomicro.com/careers.html",
+        "https://m.zhipin.com/zhaopin/29ce898a89674c111nR62d-_GA~~/"
+      ]
+    },
+    {
+      "id": "X02",
+      "company": "江苏易爱健康科技有限公司",
+      "title": "嵌入式软件工程师 / 硬件开发工程师",
+      "reason": "本科3年以上工作经验；全职/实习生邮件模板不代表该岗位接受实习",
+      "source_urls": [
+        "https://www.jseihc.com/hr.html"
+      ]
+    },
+    {
+      "id": "X03",
+      "company": "鲲腾易",
+      "title": "嵌入式产品开发专家",
+      "reason": "页面当前职位已下线，截止2025-04-28，刷新2025-04-29",
+      "source_urls": [
+        "https://www.shixiseng.com/intern/inn_rhdx1svwfihw"
+      ]
+    },
+    {
+      "id": "X04",
+      "company": "南京广真信息科技有限公司",
+      "title": "嵌入式设备接入实习生",
+      "reason": "牛客显示已结束、2025届；与投递时间2026-05-08至2028-06-08冲突，不能确认在招及2028资格",
+      "source_urls": [
+        "https://www.nowcoder.com/jobs/detail/447134"
+      ]
+    },
+    {
+      "id": "X05",
+      "company": "南京暖果自动化科技有限公司",
+      "title": "设备技术员",
+      "reason": "6天/周、6个月、12小时两班倒，与可出勤3-5天不符",
+      "source_urls": [
+        "https://www.shixiseng.com/intern/inn_t6on3eshcizy?pcm=pc_SearchList"
+      ]
+    },
+    {
+      "id": "X06",
+      "company": "南京莫拉克电力工程有限公司",
+      "title": "造价实习生",
+      "reason": "工程造价与预算算量要求；6天/周，与专业主线及时间不符",
+      "source_urls": [
+        "https://www.zhaopin.com/jobdetail/CCL1426897820J40868048401.htm"
+      ]
+    },
+    {
+      "id": "X07",
+      "company": "南京诺令生物科技股份有限公司",
+      "title": "医疗器械研发实习生",
+      "reason": "总体要求明确北京大学在校本科生、硕士生或应届毕业生，不能用于证明南信大可投",
+      "source_urls": [
+        "https://sie.pku.edu.cn/xwgg/tzgg/fa10ef85812b43598878bb460b91a629.htm"
+      ]
+    },
+    {
+      "id": "X08",
+      "company": "南京东博智慧能源研究院",
+      "title": "电力系统分析实习生 / 电网仿真实习生 / 直流电网实习生 / 新能源仿真分析实习生",
+      "reason": "四组要求均全日制硕士及以上，本科不符合",
+      "source_urls": [
+        "https://dbenergy.com.cn/sxzp_"
+      ]
+    },
+    {
+      "id": "X09",
+      "company": "台积电（南京）有限公司",
+      "title": "2026暑期27届电气工程师实习",
+      "reason": "2027届硕博批次，电气岗位要求硕士；2026年7-8月实习已过，2028本科不符合",
+      "source_urls": [
+        "https://xt.jrzp.com/job1297078956.shtml",
+        "https://campus.niuqizp.com/job-vr85zNLNZ.html"
+      ]
+    },
+    {
+      "id": "X10",
+      "company": "Calix凯易讯",
+      "title": "测试开发实习生（Wi-Fi与AI方向）R-11849",
+      "reason": "硬要求研一/研二或大四在校生；2028本科当前大三不合；不作为10公里日常主推",
+      "source_urls": [
+        "https://calix.wd1.myworkdayjobs.com/en-US/ExternalInternational/job/-Wi-FiAI-_R-11849"
+      ]
+    },
+    {
+      "id": "X11",
+      "company": "西门子",
+      "title": "Young Talent - 功率电子硬件开发实习生",
+      "reason": "领英同名职位明确停止接受申请；面试马仍写招聘存在冲突，按停招观察",
+      "source_urls": [
+        "https://cn.linkedin.com/jobs/view/young-talent-%E5%8A%9F%E7%8E%87%E7%94%B5%E5%AD%90%E7%A1%AC%E4%BB%B6%E5%BC%80%E5%8F%91%E5%AE%9E%E4%B9%A0%E7%94%9F-at-siemens-4386896461",
+        "https://www.mianshima.com/job/141/69ba5d293d7e895bef01638e"
+      ]
+    },
+    {
+      "id": "X12",
+      "company": "国电南自",
+      "title": "总部及旧校招线索",
+      "reason": "总部不是岗位工位，未取得2028本科日常实习有效JD；不沿用旧留用和通勤断言",
+      "source_urls": [
+        "https://soa.csu.edu.cn/info/1034/9144.htm"
+      ]
+    }
+  ]
+}
