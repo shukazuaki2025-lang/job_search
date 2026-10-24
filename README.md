@@ -12,6 +12,7 @@
 | --- | --- |
 | 不固定线下出勤的新增方向 | **[远程与弹性出勤：3家公司线索](flexible_internships/README.md)** |
 | 优先联系的岗位 | **[周边岗位与行动顺序](nearby_internships/README.md)** |
+| 现在就能发的询问消息 | **[第一批询问稿（8家，可直接复制）](nearby_internships/2026-10-24-outreach.md)** |
 | 本轮新增的周边候选 | **[10月24日第三批：南信大就业平台](nearby_internships/2026-10-24-round3-nuist.md)** · [第二轮补搜](nearby_internships/2026-10-24-round2.md) |
 | 寒假到暑假的安排、核验与下一步 | **[2026-10-24跟进清单](nearby_internships/2026-10-24.md)** |
 | 完整岗位要求、来源及排除理由 | [10月23日档案](nearby_internships/2026-10-23.md)；时间安排以10月24日清单为准 |
