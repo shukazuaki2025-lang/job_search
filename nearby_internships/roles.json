@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "verified_on": "2026-10-23",
+  "verified_on": "2026-10-24",
   "timezone": "Asia/Singapore",
   "scope": {
     "school": "南京信息工程大学本部",
@@ -9,8 +9,14 @@
     "major": "自动化",
     "max_one_way_km": 10,
     "current_term_days": "不固定",
-    "winter_2027": "可实习，具体起止未确定",
-    "spring_2027_days_per_week": "3-5，可持续较久；未承诺固定5天"
+    "winter_2027": "计划开始实习并持续至2027年暑假；具体开始日及每周出勤待确认",
+    "spring_2027_days_per_week": "3-5；固定完整工作日待定，未承诺固定5天",
+    "internship_start_window": "2027年寒假",
+    "internship_end_window": "2027年暑假",
+    "internship_start_date": null,
+    "internship_end_date": null,
+    "internship_window_updated_on": "2026-10-24",
+    "summer_2027": "计划持续至暑假；具体结束日及每周出勤待确认"
   },
   "counts": {
     "priority": 4,
@@ -26,7 +32,11 @@
     "公司联系地址不等于岗位工位",
     "未知不等于不限",
     "页面可申请不等于有实际名额",
-    "本轮未联系和投递"
+    "本轮未联系和投递",
+    "用户于2026-10-24明确从2027年寒假持续到2027年暑假；确切起止日待定",
+    "计划延长不代表已满足6个月或春季固定5天；按planned_window_fit及实际日期核实",
+    "旧字段winter_fit仅评估单独寒假；当前完整窗口采用planned_window_fit",
+    "截止当天不保证实际受理；截止次日起须重新核实续招"
   ],
   "records": [
     {
@@ -34,7 +44,7 @@
       "category": "周边重点",
       "company": "南京蔚空微纳科技有限公司",
       "title": "硬件测试实习生",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "source_urls": [
         "https://m.zhipin.com/job_detail/23dae12ef49d69830nF73tu6GFNX.html",
         "https://m.zhipin.com/zhaopin/1adc6d40457925f51HZy09i_EA~~/",
@@ -63,17 +73,28 @@
       "company_address": "龙泰路8号润诚科技园7幢2层",
       "job_workplace": "浦口沿江，精确工位待核",
       "pay": "100-110元/天",
-      "current_open_evidence": "BOSS检索列表仍展示具体岗位；详情安全验证，未获招聘人确认",
+      "current_open_evidence": "2026-10-24读取平台列表仍列该岗位；详情受限，未获企业名额或寒假入职确认",
       "winter_fit": "未确认",
       "next_term_fit": "待核天数和周期",
-      "next_action": "先核2028届、具体工位、每周天数、月数及2027寒假入职"
+      "next_action": "核2028届、寒假入职至暑假、春季每周3天是否接受、岗位楼栋及测试/维护比例",
+      "planned_window_fit": "可问寒假至2027年暑假；最低月数与周天数未知，不能判定已满足",
+      "planned_window_confirmed": false,
+      "last_source_check": {
+        "checked_on": "2026-10-24",
+        "checked_urls": [
+          "https://m.zhipin.com/job_detail/23dae12ef49d69830nF73tu6GFNX.html",
+          "https://m.zhipin.com/zhaopin/1adc6d40457925f51HZy09i_EA~~/"
+        ],
+        "result": "列表可读，详情被安全验证拦截；未确认实际名额",
+        "prior_evidence_note": "公司联系地址等本次未重读字段沿用2026-10-23档案"
+      }
     },
     {
       "id": "P02",
       "category": "周边重点",
       "company": "铭想芯创",
       "title": "嵌入式软件实习生",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "source_urls": [
         "https://www.zhipin.com/job_detail/9a8227aa51b229f503J73NW-EVZZ.html",
         "https://www.zhipin.com/zhaopin/91a278c2f09ca94803J-2di9Fw~~/"
@@ -99,18 +120,29 @@
       "preferred_skills": [],
       "company_address": null,
       "job_workplace": "浦口泰山，门牌未获得",
-      "pay": "旧核验列表80-160元/天，本轮完整JD未复核，不作确定待遇",
-      "current_open_evidence": "搜索列表展示；实际名额未知",
+      "pay": "80-160元/天（2026-10-24列表可核；完整JD及实际待遇待确认）",
+      "current_open_evidence": "2026-10-24读取列表仍列本科实习；详情不可读，未确认名额",
       "winter_fit": "未知",
       "next_term_fit": "待核每周天数、连续月数",
-      "next_action": "先核门牌和技术平台、2028届及出勤"
+      "next_action": "核2028届、寒假至暑假、周天数和月数，再取完整JD、MCU平台和门牌",
+      "planned_window_fit": "长期窗口适合讨论嵌入式项目；最少周期、出勤和2027寒假名额未知",
+      "planned_window_confirmed": false,
+      "last_source_check": {
+        "checked_on": "2026-10-24",
+        "checked_urls": [
+          "https://www.zhipin.com/job_detail/9a8227aa51b229f503J73NW-EVZZ.html",
+          "https://www.zhipin.com/zhaopin/91a278c2f09ca94803J-2di9Fw~~/"
+        ],
+        "result": "列表可读，详情不可访问；未确认实际名额",
+        "prior_evidence_note": "公司联系地址等本次未重读字段沿用2026-10-23档案"
+      }
     },
     {
       "id": "P03",
       "category": "周边重点",
       "company": "南京晶捷生物科技有限公司",
       "title": "硬件测试实习生",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "source_urls": [
         "https://www.zhaopin.com/jobdetail/CC659275730J40853323711.htm",
         "https://www.eaglenos.com/contact"
@@ -125,7 +157,7 @@
       "published_on": null,
       "updated_on": null,
       "deadline": null,
-      "status": "详情可读，名额待核",
+      "status": "详情可读，实际名额及2027寒假入职待确认",
       "degree": "本科及以上",
       "major": [
         "机械电子",
@@ -148,14 +180,24 @@
       "current_open_evidence": "具体岗位详情可读并有企业在招职位入口；无具体岗位公开更新日期，未确认名额",
       "winter_fit": "不匹配6个月要求",
       "next_term_fit": "条件性匹配：需要5天/周并连续6个月",
-      "next_action": "每周能保底5天、连续6个月时再重点问；确认2028届和实际工位"
+      "next_action": "核2028届、寒假入职至暑假是否满6个月、春季固定5天及工位；仅3-4天先问企业是否接受",
+      "planned_window_fit": "实际满6个月且春季可固定5天时重点跟进；结束日、2028届、寒假入职和通勤未确认",
+      "planned_window_confirmed": false,
+      "last_source_check": {
+        "checked_on": "2026-10-24",
+        "checked_urls": [
+          "https://www.zhaopin.com/jobdetail/CC659275730J40853323711.htm"
+        ],
+        "result": "详情可读：本科、自动化相关、5天/周、6个月；实际名额及寒假入职未知",
+        "prior_evidence_note": "公司联系地址等本次未重读字段沿用2026-10-23档案"
+      }
     },
     {
       "id": "P04",
       "category": "周边重点",
       "company": "丁丁停车",
       "title": "项目售后支持专员",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "source_urls": [
         "https://www.shixiseng.com/intern/inn_ykqvmkpmitga"
       ],
@@ -169,7 +211,7 @@
       "published_on": null,
       "updated_on": "2026-09-16",
       "deadline": "2026-10-24",
-      "status": "页面可申请，未过截止；名额待核",
+      "status": "页面截止2026-10-24；当日读取结果仍见入口，实际受理及2027寒假入职待确认",
       "degree": "大专",
       "major": "弱电方向优先",
       "cohort_requirement": "未写，2028届待确认",
@@ -186,11 +228,21 @@
       "company_address": null,
       "job_workplace": "南京浦口区星火路20号垠坤·星火E方",
       "pay": "100-150元/天",
-      "current_open_evidence": "核验日公开页有投递入口且截止未过，不保证实际名额",
+      "current_open_evidence": "2026-10-24公开页提取结果仍见入口；截止当天不保证受理，未获企业确认",
       "straight_line_reference_km": 5.8,
-      "winter_fit": "单独数周不足3个月；需确认2027寒假开始且续做，届时页面已过原截止",
+      "winter_fit": "仅寒假短期不足3个月；当前计划已延续至2027年暑假，整体适配见planned_window_fit",
       "next_term_fit": "每周固定3天并连续3个月时，时间条件有机会满足；入职批次和2028未确认",
-      "next_action": "截止前先核2028届、未来入职、外派及工作比例"
+      "next_action": "先核2026-10-24受理或后续续招，再核2028届、寒假至暑假、工位和外派",
+      "planned_window_fit": "可谈寒假至暑假；需实际满3个月且每周3天，申请截止和延后入职另核",
+      "planned_window_confirmed": false,
+      "last_source_check": {
+        "checked_on": "2026-10-24",
+        "checked_urls": [
+          "https://www.shixiseng.com/intern/inn_ykqvmkpmitga"
+        ],
+        "result": "公开提取结果仍见入口，页面截止2026-10-24；当日实际受理及寒假入职未知",
+        "prior_evidence_note": "公司联系地址等本次未重读字段沿用2026-10-23档案"
+      }
     },
     {
       "id": "E01",
@@ -233,7 +285,9 @@
       "winter_fit": "未确认",
       "next_term_fit": "待核天数和周期，通勤不合约束",
       "commute_note": "不默认纳入10公里，需核工位与道路路线",
-      "next_action": "先核路线与实习性质，再核2028届、天数月数"
+      "next_action": "核实习协议性质、2028届、寒假至暑假、天数月数、工位和道路路线",
+      "planned_window_fit": "可问寒假至2027年暑假；实习性质、最低月数和周天数尚不明确",
+      "planned_window_confirmed": false
     },
     {
       "id": "E02",
@@ -272,7 +326,9 @@
       "winter_fit": "未确认",
       "next_term_fit": "待核",
       "commute_note": "不默认纳入10公里，需核工位与道路路线",
-      "next_action": "先核路线与实习性质，再核2028届、天数月数"
+      "next_action": "取完整JD及外场城市/出差安排，再核2028届、寒假至暑假和天数月数",
+      "planned_window_fit": "可问寒假至2027年暑假；外场地点、出勤和最低周期未知",
+      "planned_window_confirmed": false
     },
     {
       "id": "E03",
@@ -309,7 +365,9 @@
       "winter_fit": "未确认",
       "next_term_fit": "待核",
       "commute_note": "不默认纳入10公里，需核工位与道路路线",
-      "next_action": "先核路线与实习性质，再核2028届、天数月数"
+      "next_action": "核本科2028届、寒假至暑假、最低周期、工位和道路路线",
+      "planned_window_fit": "可咨询寒假至2027年暑假；本科资格、最低周期、出勤和名额未确认",
+      "planned_window_confirmed": false
     },
     {
       "id": "E04",
@@ -352,7 +410,9 @@
       "winter_fit": "单独寒假不足3个月；2027寒假已过页面12/31截止",
       "next_term_fit": "至少需要固定5天，且跨区通勤未纳入10公里主推",
       "commute_note": "江南跨区备选，不作为10公里日常主推",
-      "next_action": "2026年底前核2028届、寒假开始与春季续做"
+      "next_action": "2026-12-31前核2028届、寒假至暑假及长期下限；保持跨区备选",
+      "planned_window_fit": "长期窗口值得讨论；需5天/周、核实际满3个月和长期下限，先确认截止前申请能否寒假入职",
+      "planned_window_confirmed": false
     },
     {
       "id": "E05",
@@ -402,7 +462,9 @@
       "winter_fit": "单独寒假不足已列3个月或6个月要求",
       "next_term_fit": "至少需要固定5天，且跨区通勤未纳入10公里主推",
       "commute_note": "江南跨区备选，不作为10公里日常主推",
-      "next_action": "核最少3还是6个月、实际地址、出差及名额"
+      "next_action": "核寒假入职、暑假结束日、最少3还是6个月、固定5天、工位、出差和名额",
+      "planned_window_fit": "页面包含2028届；寒假至暑假可谈，最少3/6个月冲突、5天出勤和出差须核",
+      "planned_window_confirmed": false
     },
     {
       "id": "E06",
@@ -446,7 +508,9 @@
       "winter_fit": "单独寒假不足已列3个月或6个月要求",
       "next_term_fit": "至少需要固定5天，且跨区通勤未纳入10公里主推",
       "commute_note": "江南跨区备选，不作为10公里日常主推",
-      "next_action": "核自动化专业接收、待遇冲突及测试内容"
+      "next_action": "核自动化2028届、寒假至暑假、5天/周、待遇口径、测试内容和工位",
+      "planned_window_fit": "可问寒假至2027年暑假；核实际满3个月，仍需5天/周、专业接收和跨区安排",
+      "planned_window_confirmed": false
     },
     {
       "id": "O01",
@@ -493,7 +557,9 @@
       "current_open_evidence": "核查日截止未到、公开详情有投递入口；未确认剩余名额",
       "winter_fit": "不匹配6个月要求",
       "next_term_fit": "需要5天/周6个月",
-      "next_action": "仅本人主动考虑技术销售时再核实，不作为技术主线"
+      "next_action": "仅主动考虑技术销售时核2028届、寒假至暑假、6个月、5天/周、地址和名额",
+      "planned_window_fit": "可谈6个月，但仍需实际日期和固定5天；方向偏销售，不升级为技术主线",
+      "planned_window_confirmed": false
     }
   ],
   "exclusions": [
@@ -608,5 +674,18 @@
         "https://soa.csu.edu.cn/info/1034/9144.htm"
       ]
     }
-  ]
+  ],
+  "updated_on": "2026-10-24",
+  "verification_scope": {
+    "reviewed_on": "2026-10-24",
+    "role_ids": [
+      "P01",
+      "P02",
+      "P03",
+      "P04"
+    ],
+    "scope": "P01/P02复核岗位列表并尝试详情；P03/P04读取公开岗位页。公司联系地址未重新核验。",
+    "other_records": "E01-E06、O01及12组排除记录保留2026-10-23证据；仅更新个人计划适配",
+    "source_freshness": "读取包含搜索服务的页面提取结果；不证明企业实时名额或2027寒假入职获准"
+  }
 }
