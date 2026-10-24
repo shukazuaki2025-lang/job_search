@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-10-24",
+  "verified_on": "2026-10-24",
+  "scope": {
+    "school": "南京信息工程大学本部",
+    "degree": "本科",
+    "major": "自动化",
+    "graduation_year": 2028,
+    "internship_start_window": "2027年寒假",
+    "internship_end_window": "2027年暑假",
+    "internship_start_date": null,
+    "internship_end_date": null,
+    "requested_preference": "寻找无需固定出勤要求的公司实习，也纳入原清单",
+    "screening_interpretation": "优先无需固定线下坐班、时间灵活或按项目交付；不等于零工作量",
+    "geographic_rule": "纯远程不限城市；如需线下联调则核单程10公里",
+    "fixed_online_schedule_confirmed": false
+  },
+  "counts": {
+    "company_leads": 3,
+    "priority_company_leads": 2,
+    "cautious_company_leads": 1,
+    "remote_only_observations": 1,
+    "community_supplements": 1,
+    "excluded_examples": 3,
+    "fully_confirmed_all_constraints": 0
+  },
+  "notes": [
+    "未知字段为null，不能读作不限",
+    "全部公司线索未确认2027年实际名额",
+    "项目兼职、公司实习与社区实习分开",
+    "来源发布日期、读取日和当前在招状态分开",
+    "不从相似职位卡片填补主JD薪资",
+    "不与nearby_internships的11条记录混计"
+  ],
+  "research": {
+    "directions": [
+      "南京周边弹性出勤",
+      "远程技术实习",
+      "项目制兼职"
+    ],
+    "exa_query_count": 8,
+    "exa_requested_results_total": 70,
+    "unique_sources_count": null,
+    "result_count_note": "请求数含重复，非70家已核实公司；并用公开招聘正文复核"
+  },
+  "records": [
+    {
+      "verified_on": "2026-10-24",
+      "post_updated_on": null,
+      "deadline": null,
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "planned_window_confirmed": false,
+      "school_recognition_confirmed": false,
+      "internship_start_date": null,
+      "internship_end_date": null,
+      "fixed_onsite_days_per_week": null,
+      "weekly_workload_hours": null,
+      "fixed_online_hours": null,
+      "minimum_months": null,
+      "id": "F01",
+      "category": "优先核实",
+      "company": "微探生命科学技术(浙江)有限公司",
+      "title": "兼职 单片机嵌入式软件工程师（远程 / 项目制）",
+      "source_urls": [
+        "https://www.zhaopin.com/jobdetail/CCL1491220760J41018804904.htm"
+      ],
+      "source_type": "招聘平台岗位正文",
+      "published_on": null,
+      "public_status": "正文可读，实际名额及2027年项目待确认",
+      "position_type": "远程项目兼职；公司实习手续待确认",
+      "attendance_class": "remote_project_based",
+      "fully_remote_advertised": true,
+      "onsite_required_advertised": false,
+      "flexibility_explicit": true,
+      "attendance_evidence": "正文写无需线下坐班，按项目交付，并定期线上同步进度",
+      "degree": "本科/硕士；明确接受在校本科",
+      "graduation_year_requirement": null,
+      "major_requirement": null,
+      "skills_summary": [
+        "MCU与C开发",
+        "常见外设驱动",
+        "看原理图及软硬件联调"
+      ],
+      "pay": {
+        "currency": "CNY",
+        "amount": null,
+        "unit": "项目",
+        "basis": "启动前商定总价，验收合格后结算",
+        "monthly_guarantee_confirmed": false,
+        "source_note": "主JD薪资隐藏；不采用相似职位卡片金额"
+      },
+      "location": {
+        "posting_city": "北京",
+        "posting_district": "大兴区",
+        "work_mode": "纯远程",
+        "onsite_address": null,
+        "road_distance_km": null,
+        "commute_status": "按正文无需坐班；如额外要求现场须重新核验"
+      },
+      "internship_support": "协议、带教、实习证明和学校认可均待确认",
+      "planned_window_fit": "技术与出勤方式匹配；寒假入职及持续到暑假的项目供给未确认",
+      "follow_up": [
+        "2027年寒假是否有项目及是否接收2028届",
+        "周工作量、会议和期末节奏",
+        "开发板/仪器与远程调试安排",
+        "合同、验收、付款及实习手续"
+      ],
+      "recommendation_reason": "STM32/嵌入式方向最贴合，且远程项目制证据明确"
+    },
+    {
+      "verified_on": "2026-10-24",
+      "post_updated_on": "2026-06-22",
+      "deadline": null,
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "planned_window_confirmed": false,
+      "school_recognition_confirmed": false,
+      "internship_start_date": null,
+      "internship_end_date": null,
+      "fixed_onsite_days_per_week": null,
+      "weekly_workload_hours": null,
+      "fixed_online_hours": null,
+      "minimum_months": null,
+      "id": "F02",
+      "category": "核实续招",
+      "company": "上海智元生机生命科学有限公司",
+      "title": "嵌入式软件应用工程师 / 机器人软件开发实习生",
+      "source_urls": [
+        "https://bbs.byr.cn/article/JobInfo/980374"
+      ],
+      "source_type": "招聘者论坛原帖",
+      "published_on": "2026-06-22",
+      "public_status": "旧帖正文可提取，尚无续招确认",
+      "position_type": "实习 / 项目制开发",
+      "attendance_class": "remote_mainly_flexible",
+      "fully_remote_advertised": false,
+      "onsite_required_advertised": null,
+      "flexibility_explicit": true,
+      "attendance_evidence": "远程为主且工作时间灵活；并未承诺完全无需到现场",
+      "degree": null,
+      "graduation_year_requirement": null,
+      "major_requirement": "自动化等相关专业",
+      "skills_summary": [
+        "Python或C/C++等编程基础",
+        "Linux基础",
+        "通信/机器人项目经验加分"
+      ],
+      "pay": {
+        "currency": "CNY",
+        "amount": 100,
+        "unit": "小时",
+        "basis": "按开发工作量计费",
+        "monthly_guarantee_confirmed": false,
+        "source_note": "原招聘帖；计费认可与结算周期待核"
+      },
+      "location": {
+        "posting_city": "上海",
+        "posting_district": null,
+        "work_mode": "远程为主",
+        "onsite_address": null,
+        "road_distance_km": null,
+        "commute_status": "是否需要现场联调待问；任何现场要求仍核原10公里约束"
+      },
+      "internship_support": "招聘帖列为实习；协议、带教安排及证明待核",
+      "employer_identity_note": "原帖自述公司名，未获独立企业资料确认；不能与智元机器人混同",
+      "source_access_note": "正文经提取读取；普通浏览入口可能跳回论坛首页",
+      "planned_window_fit": "自动化/机器人方向合适；先确认2026年旧帖续招及2027年寒假名额",
+      "follow_up": [
+        "是否续招及接收2028届本科",
+        "2027年寒假到暑假是否可合作",
+        "偶尔现场联调、设备远程接入及周工作量",
+        "计费工时、结算周期、协议和证明"
+      ],
+      "recommendation_reason": "明确时间灵活，且岗位包含机器人与自动化联调"
+    },
+    {
+      "verified_on": "2026-10-24",
+      "post_updated_on": null,
+      "deadline": null,
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "planned_window_confirmed": false,
+      "school_recognition_confirmed": false,
+      "internship_start_date": null,
+      "internship_end_date": null,
+      "fixed_onsite_days_per_week": null,
+      "weekly_workload_hours": null,
+      "fixed_online_hours": null,
+      "minimum_months": null,
+      "id": "F03",
+      "category": "谨慎观察",
+      "company": "雷什(南京)网络科技有限公司",
+      "title": "单片机 STM32 初级工程师",
+      "source_urls": [
+        "https://www.zhaopin.com/jobdetail/CCL1523063690J40863183207.htm"
+      ],
+      "related_source_urls": [
+        "https://www.zhaopin.com/jobdetail/CCL1523063690J40871842907.htm",
+        "https://www.zhaopin.com/jobdetail/CCL1523063690J40847216007.htm"
+      ],
+      "source_type": "招聘平台岗位正文",
+      "published_on": null,
+      "public_status": "正文可读，名额、主体与费用细节待核",
+      "position_type": "线上兼职或线上实习；与线下全职分开",
+      "attendance_class": "remote_no_onsite_workload_unknown",
+      "fully_remote_advertised": true,
+      "onsite_required_advertised": false,
+      "flexibility_explicit": null,
+      "attendance_evidence": "标签写线上实习不坐班；未披露周工作量或固定在线时段",
+      "degree": "本科及以上；在校届别待核",
+      "graduation_year_requirement": null,
+      "major_requirement": "单片机相关专业；自动化是否接受待确认",
+      "skills_summary": [
+        "单片机基础",
+        "嵌入式开发流程",
+        "装配调试与测试"
+      ],
+      "pay": {
+        "currency": "CNY",
+        "amount": null,
+        "unit": null,
+        "basis": "主JD薪资隐藏，待招聘方说明",
+        "monthly_guarantee_confirmed": false,
+        "source_note": "相似岗位卡片300元/次不合并到本JD"
+      },
+      "location": {
+        "posting_city": "北京",
+        "posting_district": "东城区朝阳门",
+        "work_mode": "线上兼职/实习",
+        "onsite_address": null,
+        "road_distance_km": null,
+        "commute_status": "不以公司名含南京判定10公里内；当前只考虑线上模式"
+      },
+      "internship_support": "本JD称提供实习证明与三方协议；三方协议不等于学校实习协议",
+      "cost_issue": {
+        "status": "待澄清",
+        "source_url": "https://www.zhaopin.com/jobdetail/CCL1523063690J40871842907.htm",
+        "detail": "相关岗位称证明免费，三方协议需自行承担手续成本；是否适用本岗位未知"
+      },
+      "employer_identity_note": "当前两份JD显示有限公司；旧提取页出现个体工商户名称，关系与签约主体未确认",
+      "planned_window_fit": "仅作为无需坐班的观察项，先核真实工程任务、费用和2027年安排",
+      "follow_up": [
+        "真实任务、带教及签约主体",
+        "手续成本的用途金额及是否适用本岗",
+        "2028届、2027年寒假名额、工作量与结算",
+        "实习协议及学校认可"
+      ],
+      "recommendation_reason": "出勤表述匹配，但费用与主体细节需先澄清"
+    }
+  ],
+  "remote_only_observations": [
+    {
+      "verified_on": "2026-10-24",
+      "post_updated_on": null,
+      "deadline": null,
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "planned_window_confirmed": false,
+      "school_recognition_confirmed": false,
+      "internship_start_date": null,
+      "internship_end_date": null,
+      "fixed_onsite_days_per_week": null,
+      "weekly_workload_hours": null,
+      "fixed_online_hours": null,
+      "minimum_months": 3,
+      "id": "R01",
+      "category": "仅确认远程",
+      "company": "TabbyML",
+      "title": "工程实习生（模型训练 / RL基础设施）",
+      "source_urls": [
+        "https://www.v2ex.com/t/1247239"
+      ],
+      "source_type": "项目维护者招聘原帖",
+      "published_on": "2026-10-09",
+      "public_status": "原帖急招；是否仍招以及能否寒假入职待核",
+      "position_type": "工程实习",
+      "attendance_class": "remote_only_workload_unknown",
+      "fully_remote_advertised": true,
+      "onsite_required_advertised": false,
+      "flexibility_explicit": null,
+      "attendance_evidence": "只明确全远程，没有承诺不限工时或弹性排期",
+      "advertised_duration_months": "3–6",
+      "degree": null,
+      "graduation_year_requirement": null,
+      "major_requirement": null,
+      "skills_summary": [
+        "较强软件基础",
+        "Python/TypeScript",
+        "独立推进数据处理与评测工程任务"
+      ],
+      "pay": {
+        "currency": null,
+        "amount": null,
+        "unit": null,
+        "basis": "未披露"
+      },
+      "planned_window_fit": "春季软件方向备选；急招与2027年寒假开始可能不一致",
+      "follow_up": [
+        "固定在线时段和周工时",
+        "在校年级及2027年开始时间",
+        "薪酬与签约主体"
+      ]
+    }
+  ],
+  "community_supplements": [
+    {
+      "id": "C01",
+      "category": "社区补充",
+      "organization": "openEuler社区及合作单位",
+      "title": "开源实习",
+      "verified_on": "2026-10-24",
+      "source_urls": [
+        "https://www.openeuler.org/zh/internship/"
+      ],
+      "source_type": "官方规则页",
+      "published_on": null,
+      "deadline": null,
+      "position_type": "社区线上实习，不计公司岗位",
+      "eligibility": "年满18周岁的在校大学生，无专业年级限制",
+      "attendance_class": "online_self_scheduled",
+      "fully_remote_advertised": true,
+      "flexibility_explicit": true,
+      "weekly_workload_hours": null,
+      "fixed_online_hours": null,
+      "contract_valid_months": 6,
+      "may_finish_early": true,
+      "offer_rule": "2026-03-01起，实习积分满10分后发放offer",
+      "certificate_rule": "6个月内满60积分、导师评语、实习报告，且通过评审",
+      "pay": {
+        "amount": null,
+        "unit": "积分对应档位",
+        "basis": "依当期积分工资规则，金额未核"
+      },
+      "school_recognition_confirmed": false,
+      "planned_window_confirmed": false,
+      "application_status": "未报名",
+      "planned_window_fit": "可自行安排线上时间；开始前核2027年任务、规则、学校认可及合同日期"
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "E01",
+      "company": "西门子",
+      "title": "工业AI相关实习",
+      "verified_on": "2026-10-24",
+      "source_urls": [
+        "https://jobs.siemens.com/zh_CN/externaljobs/JobDetail/522411"
+      ],
+      "reason": "硕士/博士，至少4天工作量；不因混合/灵活办公归入不限出勤"
+    },
+    {
+      "id": "E02",
+      "company": "建瓴半导体",
+      "title": "SDK实习",
+      "verified_on": "2026-10-24",
+      "source_urls": [
+        "https://m.liepin.com/lptjob/46713729"
+      ],
+      "reason": "每周3天；公司介绍远程字样不能替代具体岗位出勤要求"
+    },
+    {
+      "id": "E03",
+      "company": null,
+      "title": "旧Python机器人远程招聘",
+      "verified_on": "2026-10-24",
+      "source_urls": [
+        "https://bbs.elecfans.com/jishu_2453824_1_1.html"
+      ],
+      "reason": "每天8小时且公司主体不明确"
+    }
+  ]
+}

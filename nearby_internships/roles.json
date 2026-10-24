@@ -16,7 +16,9 @@
     "internship_start_date": null,
     "internship_end_date": null,
     "internship_window_updated_on": "2026-10-24",
-    "summer_2027": "计划持续至暑假；具体结束日及每周出勤待确认"
+    "summer_2027": "计划持续至暑假；具体结束日及每周出勤待确认",
+    "additional_attendance_preference": "新增无需固定线下坐班、远程或按项目交付的公司实习/兼职线索；线上工作量仍需约定",
+    "remote_scope": "纯远程候选不限制公司所在城市；如需线下联调，仍核南信大本部单程10公里"
   },
   "counts": {
     "priority": 4,
@@ -36,7 +38,8 @@
     "用户于2026-10-24明确从2027年寒假持续到2027年暑假；确切起止日待定",
     "计划延长不代表已满足6个月或春季固定5天；按planned_window_fit及实际日期核实",
     "旧字段winter_fit仅评估单独寒假；当前完整窗口采用planned_window_fit",
-    "截止当天不保证实际受理；截止次日起须重新核实续招"
+    "截止当天不保证实际受理；截止次日起须重新核实续招",
+    "2026-10-24新增弹性出勤清单，独立统计；周边记录缺失的出勤字段不改写为不限"
   ],
   "records": [
     {
@@ -687,5 +690,15 @@
     "scope": "P01/P02复核岗位列表并尝试详情；P03/P04读取公开岗位页。公司联系地址未重新核验。",
     "other_records": "E01-E06、O01及12组排除记录保留2026-10-23证据；仅更新个人计划适配",
     "source_freshness": "读取包含搜索服务的页面提取结果；不证明企业实时名额或2027寒假入职获准"
-  }
+  },
+  "related_collections": [
+    {
+      "id": "flexible_internships",
+      "title": "远程与弹性出勤",
+      "readme": "../flexible_internships/README.md",
+      "data": "../flexible_internships/roles.json",
+      "report": "../flexible_internships/2026-10-24.md",
+      "count_separately": true
+    }
+  ]
 }
