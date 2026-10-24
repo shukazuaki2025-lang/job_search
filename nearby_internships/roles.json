@@ -21,13 +21,15 @@
     "remote_scope": "纯远程候选不限制公司所在城市；如需线下联调，仍核南信大本部单程10公里"
   },
   "counts": {
-    "priority": 4,
+    "priority": 6,
     "jiangbei_extended": 3,
     "jiangnan_extended": 3,
-    "nontechnical_observation": 1,
-    "total_records": 11,
-    "exclusion_groups": 12,
-    "fully_confirmed_all_constraints": 0
+    "nontechnical_observation": 2,
+    "total_records": 19,
+    "exclusion_groups": 22,
+    "fully_confirmed_all_constraints": 0,
+    "nearby_backup": 1,
+    "nearby_distance_pending": 4
   },
   "notes": [
     "路线未实测；直线距离不能代表通勤",
@@ -39,7 +41,10 @@
     "计划延长不代表已满足6个月或春季固定5天；按planned_window_fit及实际日期核实",
     "旧字段winter_fit仅评估单独寒假；当前完整窗口采用planned_window_fit",
     "截止当天不保证实际受理；截止次日起须重新核实续招",
-    "2026-10-24新增弹性出勤清单，独立统计；周边记录缺失的出勤字段不改写为不限"
+    "2026-10-24新增弹性出勤清单，独立统计；周边记录缺失的出勤字段不改写为不限",
+    "2026-10-24第二轮新增8条候选（P05-P07、O02、Q01-Q04）与10条排除（X13-X22）；来源为智联招聘、应届生求职网及职友集名录",
+    "Q01-Q04只确认到区级或未写区，街道门牌未知，不能据此认定在10公里内",
+    "本轮BOSS直聘、实习僧、前程无忧与Indeed的检索被验证码或前端渲染阻断，未使用其摘要作为在招证据"
   ],
   "records": [
     {
@@ -563,6 +568,464 @@
       "next_action": "仅主动考虑技术销售时核2028届、寒假至暑假、6个月、5天/周、地址和名额",
       "planned_window_fit": "可谈6个月，但仍需实际日期和固定5天；方向偏销售，不升级为技术主线",
       "planned_window_confirmed": false
+    },
+    {
+      "category": "周边重点",
+      "verified_on": "2026-10-24",
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "job_workplace_confirmed": false,
+      "road_distance_km": null,
+      "road_distance_confirmed": false,
+      "commute_limit_km": 10,
+      "published_on": null,
+      "updated_on": null,
+      "deadline": null,
+      "degree": "本科及以上",
+      "major": [
+        "计算机",
+        "电子",
+        "通信",
+        "自动化",
+        "数学"
+      ],
+      "cohort_requirement": "未写届别；原文写“应届毕业生优先”",
+      "days_per_week": 5,
+      "minimum_months": 5,
+      "hard_requirements": [
+        "熟练C/C++，良好编程习惯",
+        "有Qt或MFC/.NET等GUI框架实际经验",
+        "数据结构、操作系统、编译原理基础",
+        "能接受外场测试及调试"
+      ],
+      "preferred_skills": [
+        "雷达原理或信号处理",
+        "FPGA/DSP开发",
+        "Android或跨平台开发",
+        "目标跟踪与分类算法"
+      ],
+      "company_address": null,
+      "pay": "150-200元/天（列表页）；详情页薪资遮挡",
+      "winter_fit": "单独寒假不足页面所列5个月",
+      "next_term_fit": "需5天/周；春季只能3–4天时须先获企业同意",
+      "planned_window_fit": "寒假到暑假可满足5个月；届别、名额、春季出勤和门牌未确认",
+      "planned_window_confirmed": false,
+      "id": "P05",
+      "company": "南京起拓科技有限公司",
+      "title": "雷达软件开发实习生（C++/Qt）",
+      "source_urls": [
+        "https://www.zhaopin.com/jobdetail/CCL1284315760J40783444311.htm"
+      ],
+      "status": "详情可读、有立即投递入口；名额与寒假入职未确认",
+      "duration_note": "头部写5个月，正文写实习期5–6个月以上",
+      "work_summary": "雷达产品Windows客户端显示控制软件开发、信号处理工程化、软硬件联调",
+      "job_workplace": "南京浦口区顶山（平台标注）；具体楼栋门牌待核",
+      "current_open_evidence": "2026-10-24读取智联详情页，有立即投递入口并写明招1人；未获企业名额确认",
+      "next_action": "问2028届、寒假入职、5天/周能否按学期调整、外场比例与实际工位",
+      "last_source_check": {
+        "checked_on": "2026-10-24",
+        "checked_urls": [
+          "https://www.zhaopin.com/jobdetail/CCL1284315760J40783444311.htm"
+        ],
+        "result": "详情可读：本科、5天/周、5个月、招1人；薪资遮挡；未确认实际名额",
+        "prior_evidence_note": "公司地址线索来自同公司其他岗位的研创园腾飞大厦记录，未重新核验"
+      }
+    },
+    {
+      "category": "周边重点",
+      "verified_on": "2026-10-24",
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "job_workplace_confirmed": false,
+      "road_distance_km": null,
+      "road_distance_confirmed": false,
+      "commute_limit_km": 10,
+      "published_on": "2026-08-28",
+      "updated_on": null,
+      "deadline": null,
+      "degree": "本科及以上",
+      "major": [
+        "自动化",
+        "电子信息",
+        "计算机",
+        "通信"
+      ],
+      "cohort_requirement": "未写届别；2028届可投未确认",
+      "days_per_week": null,
+      "minimum_months": null,
+      "hard_requirements": [
+        "精通C或C++，有编程经验",
+        "熟悉Qt程序开发",
+        "接触过实时操作系统开发调试",
+        "了解机器人、运控、伺服或工控软件",
+        "熟悉EtherCAT、CANopen、MODBUS等协议"
+      ],
+      "preferred_skills": [
+        "工业机器人应用场景经验"
+      ],
+      "company_address": null,
+      "pay": "5万元/年（原文；实习与全职未拆分，不能自行折算月薪）",
+      "winter_fit": "未写最低周期，寒假单独不足无法判定",
+      "next_term_fit": "未写周天数；需与企业约定春季3–5天是否可行",
+      "planned_window_fit": "岗位内容与自动化主线高度匹配；最低月数、出勤、届别和名额均未确认",
+      "planned_window_confirmed": false,
+      "id": "P06",
+      "company": "纳博特控制技术（苏州）有限公司",
+      "title": "实习生（机器人控制与上位机软件）",
+      "source_urls": [
+        "http://www.yingjiesheng.com/job-008-042-556.html",
+        "https://m.yingjiesheng.com/job-008-042-556.html"
+      ],
+      "status": "高校就业网转载可读，招5人；实际到岗名额与届别未确认",
+      "work_summary": "机器人控制软件与上位机软件设计开发调试、客户技术支持、文档归档",
+      "job_workplace": "原文写江苏省南京市浦口区；同公司智联在招岗位标注浦口·泰山，门牌待核",
+      "current_open_evidence": "2026-10-24读取应届生转载页，仍可访问并有5人招聘信息；发布日期2026-08-28，未确认仍在招",
+      "next_action": "问2028届、寒假入职至暑假、每周天数、实习薪资口径、泰山实际工位和转正安排",
+      "last_source_check": {
+        "checked_on": "2026-10-24",
+        "checked_urls": [
+          "https://m.yingjiesheng.com/job-008-042-556.html"
+        ],
+        "result": "转载页可读：本科、招5人、5万元/年、浦口区；未写天数与月数",
+        "prior_evidence_note": "信息来源标注为南京工业大学就业网，未回访原发布页"
+      }
+    },
+    {
+      "category": "周边备选",
+      "verified_on": "2026-10-24",
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "job_workplace_confirmed": false,
+      "road_distance_km": null,
+      "road_distance_confirmed": false,
+      "commute_limit_km": 10,
+      "published_on": null,
+      "updated_on": null,
+      "deadline": null,
+      "degree": "本科及以上在读",
+      "major": "人工智能相关专业或深度学习相关方向",
+      "cohort_requirement": "未写届别；2028届可投未确认",
+      "days_per_week": 3,
+      "minimum_months": 5,
+      "hard_requirements": [
+        "熟悉Python",
+        "有PyTorch或TensorFlow使用经验",
+        "了解分类、检测、分割等视觉任务",
+        "能使用LabelMe、CVAT等标注工具"
+      ],
+      "preferred_skills": [
+        "医学图像或医疗器械项目经验",
+        "数据标注经验"
+      ],
+      "company_address": null,
+      "pay": "150-200元/天（列表页）；详情页薪资遮挡",
+      "winter_fit": "单独寒假不足页面所列5个月",
+      "next_term_fit": "3天/周与春季3–5天的时间条件相符；专业是否接收自动化待问",
+      "planned_window_fit": "3天/周是当前候选里最贴合春季课表的；专业口径、届别和名额未确认",
+      "planned_window_confirmed": false,
+      "id": "P07",
+      "company": "江苏富翰医疗产业发展有限公司",
+      "title": "深度学习图像算法实习生",
+      "source_urls": [
+        "https://www.zhaopin.com/jobdetail/CC711815330J40832187107.htm"
+      ],
+      "status": "详情可读、有立即投递入口；名额未确认",
+      "work_summary": "医学图像数据处理与标注、模型训练验证调优、算法集成测试、文档与报告",
+      "job_workplace": "南京浦口区泰山（平台标注）；具体门牌待核",
+      "current_open_evidence": "2026-10-24读取智联详情页，有立即投递入口并写明招1人、3天/周、5个月；未获名额确认",
+      "next_action": "问自动化专业能否投、2028届、寒假入职、5个月起止和实际工位",
+      "last_source_check": {
+        "checked_on": "2026-10-24",
+        "checked_urls": [
+          "https://www.zhaopin.com/jobdetail/CC711815330J40832187107.htm"
+        ],
+        "result": "详情可读：本科、3天/周、5个月、招1人；薪资遮挡；未确认实际名额",
+        "prior_evidence_note": "无"
+      }
+    },
+    {
+      "category": "非技术观察",
+      "verified_on": "2026-10-24",
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "job_workplace_confirmed": false,
+      "road_distance_km": null,
+      "road_distance_confirmed": false,
+      "commute_limit_km": 10,
+      "published_on": null,
+      "updated_on": null,
+      "deadline": null,
+      "degree": "本科",
+      "major": "不限；电子信息类加分",
+      "cohort_requirement": "本科在校生或应届、往届生均可",
+      "days_per_week": 3,
+      "minimum_months": 3,
+      "hard_requirements": [
+        "沟通与统筹协调能力",
+        "公文写作与资料整理"
+      ],
+      "preferred_skills": [
+        "电子信息类专业",
+        "了解芯片行业",
+        "图片编辑与新媒体宣传",
+        "社团管理经验"
+      ],
+      "company_address": null,
+      "pay": "3000-5000元（列表页）；详情页薪资遮挡，计价周期未写明",
+      "winter_fit": "未写最低月数，寒假单独不足无法判定",
+      "next_term_fit": "3天/周以上，与春季3–5天的时间条件相符",
+      "planned_window_fit": "时间条件宽松，但岗位偏行业服务与文案，不是技术实习；不升级为技术主线",
+      "planned_window_confirmed": false,
+      "id": "O02",
+      "company": "南京市集成电路行业协会",
+      "title": "实习生",
+      "source_urls": [
+        "https://www.zhaopin.com/jobdetail/CC694595980J40771548703.htm"
+      ],
+      "status": "详情可读、有立即投递入口；名额未确认",
+      "duration_note": "原文为“每周三天以上、连续三个月以上者优先”，不是硬性门槛",
+      "work_summary": "集成电路企业资讯收集整理、产业信息初步分析、产业活动协助、新闻稿与PPT",
+      "job_workplace": "南京浦口区顶山（平台标注）；具体门牌待核",
+      "current_open_evidence": "2026-10-24读取智联详情页，有立即投递入口并写明招1人；未获名额确认",
+      "next_action": "仅在想补充产业侧经历时联系：问2028届、3天/周、3个月起止、薪资周期和工位",
+      "last_source_check": {
+        "checked_on": "2026-10-24",
+        "checked_urls": [
+          "https://www.zhaopin.com/jobdetail/CC694595980J40771548703.htm"
+        ],
+        "result": "详情可读：本科、招1人、3天/周以上、3个月以上优先；未确认实际名额",
+        "prior_evidence_note": "无"
+      }
+    },
+    {
+      "category": "周边待核距离",
+      "verified_on": "2026-10-24",
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "job_workplace_confirmed": false,
+      "road_distance_km": null,
+      "road_distance_confirmed": false,
+      "commute_limit_km": 10,
+      "published_on": "2026-10-20",
+      "updated_on": null,
+      "deadline": null,
+      "degree": "统招全日制本科及以上",
+      "major": "电气自动化",
+      "cohort_requirement": "未写届别；2028届可投未确认",
+      "days_per_week": null,
+      "minimum_months": null,
+      "hard_requirements": [
+        "电气自动化专业",
+        "全日制本科及以上"
+      ],
+      "preferred_skills": [],
+      "company_address": "南京市江北新区行知路2号江苏浦潮生物科技园内1栋703-709室（爱企查注册地；不等于岗位工位）",
+      "pay": "本科实习月薪4000元；硕士5000元（原文）",
+      "winter_fit": "未写最低周期",
+      "next_term_fit": "未写周天数；需确认春季3–5天与现场支持是否冲突",
+      "planned_window_fit": "工业总线I/O方向与自动化主线匹配；距离、出勤和名额均未确认",
+      "planned_window_confirmed": false,
+      "id": "Q01",
+      "company": "南京德克威尔自动化有限公司",
+      "title": "FAE技术支持工程师（实习）",
+      "source_urls": [
+        "http://www.yingjiesheng.com/job-008-127-335.html",
+        "https://m.yingjiesheng.com/job-008-127-335.html",
+        "https://aiqicha.baidu.com/company_detail_23546231418123"
+      ],
+      "status": "高校就业网转载可读，招6人；实际名额与工位未确认",
+      "work_summary": "现场与线上技术支持、售前选型解答、跨部门技术交流与产品测试、编程和组态支持",
+      "job_workplace": "岗位原文写江苏省南京市浦口区；注册地在江北新区行知路2号，街道、门牌与工位待核",
+      "current_open_evidence": "2026-10-24读取应届生转载页，仍可访问并写6人；发布日期2026-10-20，未确认仍在招",
+      "next_action": "先要门牌核10公里，再问2028届、寒假入职、周天数、是否长期驻客户现场",
+      "last_source_check": {
+        "checked_on": "2026-10-24",
+        "checked_urls": [
+          "https://m.yingjiesheng.com/job-008-127-335.html",
+          "https://aiqicha.baidu.com/company_detail_23546231418123"
+        ],
+        "result": "转载页可读：浦口区、本科、电气自动化、招6人、实习月薪4k；未写天数与月数；另读到爱企查注册地（江北新区行知路2号），未回访官网",
+        "prior_evidence_note": "信息来源标注为南京师范大学就业网，未回访原发布页"
+      }
+    },
+    {
+      "category": "周边待核距离",
+      "verified_on": "2026-10-24",
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "job_workplace_confirmed": false,
+      "road_distance_km": null,
+      "road_distance_confirmed": false,
+      "commute_limit_km": 10,
+      "published_on": "2026-09-15",
+      "updated_on": null,
+      "deadline": null,
+      "degree": "全日制本科",
+      "major": [
+        "物理",
+        "机械"
+      ],
+      "cohort_requirement": "未写届别；2028届可投未确认",
+      "days_per_week": 3,
+      "minimum_months": null,
+      "hard_requirements": [
+        "物理或机械等相关专业全日制本科",
+        "动手能力强"
+      ],
+      "preferred_skills": [],
+      "company_address": null,
+      "pay": "未获得（原文仅列餐补）",
+      "winter_fit": "未写最低周期",
+      "next_term_fit": "每周至少3天，与春季3–5天的时间条件相符",
+      "planned_window_fit": "出勤要求宽松、设备调试动手性强；专业限制、距离和名额未确认",
+      "planned_window_confirmed": false,
+      "id": "Q02",
+      "company": "费勉仪器科技（南京）有限公司",
+      "title": "设备工程师实习生",
+      "source_urls": [
+        "http://www.yingjiesheng.com/job-008-077-753.html",
+        "https://m.yingjiesheng.com/job-008-077-753.html"
+      ],
+      "status": "高校就业网转载可读；招1人，实际名额与工位未确认",
+      "duration_note": "原文为“一周需要至少来三天”，未写最低月数",
+      "work_summary": "真空镀膜设备（MBE、PVD、解理镀膜）安装调试、测试系统搭建、电气搭建",
+      "job_workplace": "公司介绍写依托江北新区；具体街道与门牌未获得",
+      "current_open_evidence": "2026-10-24读取应届生转载页，仍可访问；发布日期2026-09-15，未确认仍在招",
+      "next_action": "先核门牌与专业口径（自动化是否接收），再问2028届、月数、出差和名额",
+      "last_source_check": {
+        "checked_on": "2026-10-24",
+        "checked_urls": [
+          "https://m.yingjiesheng.com/job-008-077-753.html"
+        ],
+        "result": "转载页可读：本科、物理/机械、每周至少3天、9:00-17:30双休；未写月数与薪资",
+        "prior_evidence_note": "信息来源标注为前程无忧，未回访原发布页"
+      }
+    },
+    {
+      "category": "周边待核距离",
+      "verified_on": "2026-10-24",
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "job_workplace_confirmed": false,
+      "road_distance_km": null,
+      "road_distance_confirmed": false,
+      "commute_limit_km": 10,
+      "published_on": "2026-07-23",
+      "updated_on": null,
+      "deadline": null,
+      "degree": "本科及以上",
+      "major": "嵌入式相关；原文未写专业限制",
+      "cohort_requirement": "未写届别；2028届可投未确认",
+      "days_per_week": null,
+      "minimum_months": null,
+      "hard_requirements": [
+        "熟练C语言，掌握基础C++",
+        "熟悉STM32、ARM等MCU架构",
+        "了解GPIO、UART、SPI、I2C、ADC等外设驱动",
+        "会Keil、STM32CubeIDE，能用示波器和万用表",
+        "能看懂简单原理图"
+      ],
+      "preferred_skills": [
+        "RTOS、FreeRTOS、UCOS",
+        "医用设备或智能硬件项目经验"
+      ],
+      "company_address": null,
+      "pay": "本科2500元/月，研究生3000元/月；提供住宿和午餐（原文）",
+      "winter_fit": "未写最低周期",
+      "next_term_fit": "未写周天数",
+      "planned_window_fit": "技能要求与嵌入式主线贴合，且提供住宿；地点、出勤和名额均未确认",
+      "planned_window_confirmed": false,
+      "id": "Q03",
+      "company": "南京沃福曼医疗科技有限公司",
+      "title": "嵌入式实习生",
+      "source_urls": [
+        "http://www.yingjiesheng.com/job-008-019-483.html",
+        "https://m.yingjiesheng.com/job-008-019-483.html"
+      ],
+      "status": "转载页可读；发布较早，是否仍在招未确认",
+      "work_summary": "医疗器械嵌入式软硬件底层开发调试、外设驱动、功能与稳定性验证、研发文档",
+      "job_workplace": "仅写“南京”，区与街道均未写，距离无法判断",
+      "current_open_evidence": "2026-10-24读取应届生转载页，页面可访问；发布日期2026-07-23，未确认仍在招",
+      "next_action": "先问区与门牌、是否仍在招，再问2028届、周天数、月数和实习协议性质",
+      "last_source_check": {
+        "checked_on": "2026-10-24",
+        "checked_urls": [
+          "https://m.yingjiesheng.com/job-008-019-483.html"
+        ],
+        "result": "转载页可读：本科2500/月、研究生3000/月、提供住宿午餐；未写地点与天数",
+        "prior_evidence_note": "51job转载标为“全职”，正文写实习岗，性质存在冲突需确认"
+      }
+    },
+    {
+      "category": "周边待核距离",
+      "verified_on": "2026-10-24",
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "job_workplace_confirmed": false,
+      "road_distance_km": null,
+      "road_distance_confirmed": false,
+      "commute_limit_km": 10,
+      "published_on": "2026-10-23",
+      "updated_on": null,
+      "deadline": null,
+      "degree": "本科及以上",
+      "major": [
+        "计算机",
+        "电子信息",
+        "自动化",
+        "数学",
+        "人工智能",
+        "生物医学工程"
+      ],
+      "cohort_requirement": "未写届别；2028届可投未确认",
+      "days_per_week": null,
+      "minimum_months": null,
+      "hard_requirements": [
+        "基本Python编程能力",
+        "了解NumPy、Matplotlib等科学计算库",
+        "了解矩阵运算与数据处理",
+        "能撰写文档与归纳信息"
+      ],
+      "preferred_skills": [
+        "数字信号处理课程",
+        "实际编程经历"
+      ],
+      "company_address": "南京市江北新区磐固路16号制剂加速器厂房2（公司官网联系方式页）",
+      "pay": "未获得（原文仅列提供住宿、培训、下午茶）",
+      "winter_fit": "未写最低周期",
+      "next_term_fit": "未写周天数",
+      "planned_window_fit": "明确接收自动化专业、Python数据处理可迁移；地点、出勤和名额未确认",
+      "planned_window_confirmed": false,
+      "id": "Q04",
+      "company": "南京景瑞康分子医药科技有限公司",
+      "title": "信号处理实习生",
+      "source_urls": [
+        "http://www.yingjiesheng.com/job-008-132-144.html",
+        "https://m.yingjiesheng.com/job-008-132-144.html",
+        "http://www.raygenitm.com/contact.html"
+      ],
+      "status": "转载页可读；未确认实际名额",
+      "work_summary": "心磁、脑磁等生物医学信号的数据处理与分析、算法测试、程序调试、科研辅助",
+      "job_workplace": "岗位页只写南京；公司官网地址为江北新区磐固路16号，位于生物医药谷一带，工位与街道待核",
+      "current_open_evidence": "2026-10-24读取应届生转载页，发布日期2026-10-23；未确认仍在招",
+      "next_action": "先问区与门牌，再问2028届、周天数、月数、薪资和是否偏科研辅助",
+      "last_source_check": {
+        "checked_on": "2026-10-24",
+        "checked_urls": [
+          "https://m.yingjiesheng.com/job-008-132-144.html",
+          "http://www.raygenitm.com/contact.html"
+        ],
+        "result": "转载页可读：本科、工科优先、列明自动化；未写地点、天数与薪资；公司官网联系页读到江北新区磐固路16号，未确认实习工位",
+        "prior_evidence_note": "信息来源标注为前程无忧，未回访原发布页"
+      }
     }
   ],
   "exclusions": [
@@ -676,20 +1139,115 @@
       "source_urls": [
         "https://soa.csu.edu.cn/info/1034/9144.htm"
       ]
+    },
+    {
+      "id": "X13",
+      "company": "悦芯科技股份有限公司",
+      "title": "硬件实习生",
+      "reason": "岗位在雨花台区，且明确要求硕士；220元/天",
+      "source_urls": [
+        "http://www.yingjiesheng.com/job-008-056-091.html"
+      ]
+    },
+    {
+      "id": "X14",
+      "company": "芯元（南京）半导体有限公司",
+      "title": "MCU/单片机硬件实习生",
+      "reason": "明确要求在读硕士；浦口未来数字谷，2天/周、3个月",
+      "source_urls": [
+        "https://www.liepin.com/job/1984036203.shtml"
+      ]
+    },
+    {
+      "id": "X15",
+      "company": "江苏展芯半导体技术股份有限公司",
+      "title": "产品工程师（视觉方向实习）",
+      "reason": "岗位在雨花台·铁心桥，超出10公里；工作以图像标注为主",
+      "source_urls": [
+        "http://www.yingjiesheng.com/job-008-122-513.html",
+        "https://www.zhaopin.com/jobdetail/CC658243380J40928600103.htm"
+      ]
+    },
+    {
+      "id": "X16",
+      "company": "南京楚航科技股份有限公司",
+      "title": "软件测试助理工程师",
+      "reason": "前程无忧标为全职，不是实习岗；另需CET-4与CANoe/CAPL经验",
+      "source_urls": [
+        "http://www.yingjiesheng.com/job-008-121-165.html"
+      ]
+    },
+    {
+      "id": "X17",
+      "company": "南京塔思信息技术有限公司",
+      "title": "助理硬件工程师实习生",
+      "reason": "工作是计算机组装、装系统与外设配置，不是自动化主线",
+      "source_urls": [
+        "https://www.zhaopin.com/jobdetail/CCL1471588530J40899766504.htm"
+      ]
+    },
+    {
+      "id": "X18",
+      "company": "北京三维天地科技股份有限公司",
+      "title": "实施工程师（27届）",
+      "reason": "明确27届；需全职实习且长期出差；浦口·盘城",
+      "source_urls": [
+        "https://www.zhaopin.com/jobdetail/CC000573220J40916079313.htm"
+      ]
+    },
+    {
+      "id": "X19",
+      "company": "贝蒙实业有限公司",
+      "title": "电气自动化专业（2027届实习生）",
+      "reason": "明确2027届；地点鼓楼·江东，跨江通勤",
+      "source_urls": [
+        "https://www.zhaopin.com/jobdetail/CC881868200J40942360012.htm"
+      ]
+    },
+    {
+      "id": "X20",
+      "company": "南京捷帝科技有限公司",
+      "title": "硬件测试实习生",
+      "reason": "原岗位链接已404，页面下架，无法确认在招",
+      "source_urls": [
+        "https://www.zhaopin.com/jobdetail/CC281393410J40744777801.htm"
+      ]
+    },
+    {
+      "id": "X21",
+      "company": "南京思农检测有限公司",
+      "title": "实习生",
+      "reason": "要求化学、微生物、环境等专业；浦口·顶山，6个月5天/周",
+      "source_urls": [
+        "https://www.zhaopin.com/jobdetail/CCL1282763070J40867788411.htm"
+      ]
+    },
+    {
+      "id": "X22",
+      "company": "南京小牛智能科技有限公司",
+      "title": "嵌入式硬件开发工程师",
+      "reason": "任职资格写2026届，2028届不适用；8万元/年为年薪口径",
+      "source_urls": [
+        "http://www.yingjiesheng.com/job-008-053-895.html"
+      ]
     }
   ],
   "updated_on": "2026-10-24",
   "verification_scope": {
     "reviewed_on": "2026-10-24",
     "role_ids": [
-      "P01",
-      "P02",
-      "P03",
-      "P04"
+      "P05",
+      "P06",
+      "P07",
+      "O02",
+      "Q01",
+      "Q02",
+      "Q03",
+      "Q04"
     ],
-    "scope": "P01/P02复核岗位列表并尝试详情；P03/P04读取公开岗位页。公司联系地址未重新核验。",
-    "other_records": "E01-E06、O01及12组排除记录保留2026-10-23证据；仅更新个人计划适配",
-    "source_freshness": "读取包含搜索服务的页面提取结果；不证明企业实时名额或2027寒假入职获准"
+    "scope": "第二轮读取智联岗位详情与应届生求职网转载页；P01-P04及E01-E06、O01沿用当轮证据，未重新核验",
+    "other_records": "第一轮10-24复核记录与10-23档案保留原证据",
+    "source_freshness": "页面可读不等于企业实时名额；未联系企业，未确认2028届资格与2027寒假入职"
   },
   "related_collections": [
     {
