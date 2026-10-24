@@ -25,11 +25,11 @@
     "jiangbei_extended": 3,
     "jiangnan_extended": 3,
     "nontechnical_observation": 2,
-    "total_records": 19,
-    "exclusion_groups": 22,
+    "total_records": 21,
+    "exclusion_groups": 29,
     "fully_confirmed_all_constraints": 0,
     "nearby_backup": 1,
-    "nearby_distance_pending": 4
+    "nearby_distance_pending": 6
   },
   "notes": [
     "路线未实测；直线距离不能代表通勤",
@@ -44,7 +44,10 @@
     "2026-10-24新增弹性出勤清单，独立统计；周边记录缺失的出勤字段不改写为不限",
     "2026-10-24第二轮新增8条候选（P05-P07、O02、Q01-Q04）与10条排除（X13-X22）；来源为智联招聘、应届生求职网及职友集名录",
     "Q01-Q04只确认到区级或未写区，街道门牌未知，不能据此认定在10公里内",
-    "本轮BOSS直聘、实习僧、前程无忧与Indeed的检索被验证码或前端渲染阻断，未使用其摘要作为在招证据"
+    "本轮BOSS直聘、实习僧、前程无忧与Indeed的检索被验证码或前端渲染阻断，未使用其摘要作为在招证据",
+    "2026-10-24第三批新增2条（Q05、Q06），均来自上海数在科技南京分公司；来源为南信大智慧就业平台与河海大学就业网转载",
+    "南信大就业平台按区域码统计：浦口区“实习”32条、六合区4条；技术类仅纳博特与上海数在两条线，其余为财务、HR、销售或校招全职",
+    "P06纳博特以校就业平台数据更新截止日2026-11-08与发布时间2026-10-10"
   ],
   "records": [
     {
@@ -642,9 +645,9 @@
       "road_distance_km": null,
       "road_distance_confirmed": false,
       "commute_limit_km": 10,
-      "published_on": "2026-08-28",
+      "published_on": "2026-10-10",
       "updated_on": null,
-      "deadline": null,
+      "deadline": "2026-11-08",
       "degree": "本科及以上",
       "major": [
         "自动化",
@@ -660,7 +663,8 @@
         "熟悉Qt程序开发",
         "接触过实时操作系统开发调试",
         "了解机器人、运控、伺服或工控软件",
-        "熟悉EtherCAT、CANopen、MODBUS等协议"
+        "熟悉EtherCAT、CANopen、MODBUS等协议",
+        "二次开发经验，熟悉接口封装与调用"
       ],
       "preferred_skills": [
         "工业机器人应用场景经验"
@@ -675,20 +679,22 @@
       "company": "纳博特控制技术（苏州）有限公司",
       "title": "实习生（机器人控制与上位机软件）",
       "source_urls": [
+        "https://nuist.91job.org.cn/sub-station/positionList?lmid=C9435D25FD96280EE0530100007F6006&xxdm=10300",
         "http://www.yingjiesheng.com/job-008-042-556.html",
         "https://m.yingjiesheng.com/job-008-042-556.html"
       ],
-      "status": "高校就业网转载可读，招5人；实际到岗名额与届别未确认",
+      "status": "南信大就业平台在招，截止2026-11-08；实际名额与入职时间未确认",
       "work_summary": "机器人控制软件与上位机软件设计开发调试、客户技术支持、文档归档",
       "job_workplace": "原文写江苏省南京市浦口区；同公司智联在招岗位标注浦口·泰山，门牌待核",
-      "current_open_evidence": "2026-10-24读取应届生转载页，仍可访问并有5人招聘信息；发布日期2026-08-28，未确认仍在招",
+      "current_open_evidence": "2026-10-24读取南信大智慧就业平台，仍列该岗，招5人，投递截止2026-11-08；未获企业名额确认",
       "next_action": "问2028届、寒假入职至暑假、每周天数、实习薪资口径、泰山实际工位和转正安排",
       "last_source_check": {
         "checked_on": "2026-10-24",
         "checked_urls": [
+          "https://nuist.91job.org.cn/sub-station/positionList?lmid=C9435D25FD96280EE0530100007F6006&xxdm=10300",
           "https://m.yingjiesheng.com/job-008-042-556.html"
         ],
-        "result": "转载页可读：本科、招5人、5万元/年、浦口区；未写天数与月数",
+        "result": "校就业平台在招至2026-11-08，本科、5人、浦口区；应届生转载页另行可读",
         "prior_evidence_note": "信息来源标注为南京工业大学就业网，未回访原发布页"
       }
     },
@@ -1026,6 +1032,120 @@
         "result": "转载页可读：本科、工科优先、列明自动化；未写地点、天数与薪资；公司官网联系页读到江北新区磐固路16号，未确认实习工位",
         "prior_evidence_note": "信息来源标注为前程无忧，未回访原发布页"
       }
+    },
+    {
+      "category": "周边待核距离",
+      "verified_on": "2026-10-24",
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "job_workplace_confirmed": false,
+      "road_distance_km": null,
+      "road_distance_confirmed": false,
+      "commute_limit_km": 10,
+      "published_on": "2026-09-20",
+      "updated_on": null,
+      "deadline": "2026-10-31",
+      "degree": "本科",
+      "major": [
+        "计算机",
+        "电子",
+        "自动化",
+        "电子信息类",
+        "通信类"
+      ],
+      "cohort_requirement": "未写；2028届可投未确认",
+      "days_per_week": null,
+      "minimum_months": null,
+      "hard_requirements": [
+        "熟练C++，数据结构与算法基础扎实",
+        "了解网络编程、微服务架构",
+        "会数据库、缓存、消息队列、Docker、Git",
+        "了解大模型、Prompt调优、Function-Calling、流式输出",
+        "能独立完成开发上线全流程"
+      ],
+      "preferred_skills": [
+        "模型微调、推理优化、多模态项目经验",
+        "完整项目落地经验"
+      ],
+      "company_address": null,
+      "pay": "10万元/年（应届生转载页头部）；南信大平台未写薪资",
+      "winter_fit": "未写最低周期",
+      "next_term_fit": "未写周天数；需确认春季3–5天是否可行",
+      "planned_window_fit": "软件方向、自动化可投；但明确面向27届转正，2028届资格和出勤均未确认",
+      "planned_window_confirmed": false,
+      "id": "Q05",
+      "company": "上海数在科技有限公司南京分公司",
+      "title": "AI应用开发实习生（有C++基础）",
+      "source_urls": [
+        "http://www.yingjiesheng.com/job-008-088-265.html",
+        "https://m.yingjiesheng.com/job-008-088-265.html",
+        "https://nuist.91job.org.cn/sub-station/positionList?lmid=C9435D25FD96280EE0530100007F6006&xxdm=10300"
+      ],
+      "status": "河海大学就业网与南信大就业平台均可读；截止2026-10-31，名额未确认",
+      "work_summary": "大模型API接入与部署、多轮对话与Function-Calling、前后端联调、技术文档",
+      "job_workplace": "均为江苏省南京市浦口区；街道与门牌未获得",
+      "current_open_evidence": "2026-10-24读取两处平台，均显示在招、招2人；投递截止2026-10-31",
+      "next_action": "先问2028届能否投（页面写27届可转正），再问门牌、周天数、最低月数和实际薪资口径",
+      "last_source_check": {
+        "checked_on": "2026-10-24",
+        "checked_urls": [
+          "https://m.yingjiesheng.com/job-008-088-265.html",
+          "https://nuist.91job.org.cn/sub-station/positionList?lmid=C9435D25FD96280EE0530100007F6006&xxdm=10300"
+        ],
+        "result": "两处均写浦口区、本科、招2人；应届生页写10万元/年；截止2026-10-31",
+        "prior_evidence_note": "无"
+      }
+    },
+    {
+      "category": "周边待核距离",
+      "verified_on": "2026-10-24",
+      "application_status": "未联系、未投递",
+      "recruiter_confirmed_open": false,
+      "cohort_2028_confirmed": false,
+      "job_workplace_confirmed": false,
+      "road_distance_km": null,
+      "road_distance_confirmed": false,
+      "commute_limit_km": 10,
+      "published_on": "2026-09-02",
+      "updated_on": null,
+      "deadline": "2027-09-01",
+      "degree": "本科及以上",
+      "major": "电子信息类、计算机类（平台专业字段未列自动化）",
+      "cohort_requirement": "写“2027届本科、硕士在校生优先”；2028届能否投未确认",
+      "days_per_week": 4,
+      "minimum_months": 3,
+      "hard_requirements": [
+        "熟练掌握C/C++基础语法",
+        "熟悉面向对象、STL常用容器与算法",
+        "可实习3个月及以上，每周出勤4天及以上"
+      ],
+      "preferred_skills": [],
+      "company_address": null,
+      "pay": "100-150元/天",
+      "winter_fit": "单独寒假不足页面所列3个月",
+      "next_term_fit": "每周4天与春季3–5天基本相符；平台专业字段未列自动化",
+      "planned_window_fit": "4天/周、3个月起的门槛在候选中较低；专业口径和届别需先确认",
+      "planned_window_confirmed": false,
+      "id": "Q06",
+      "company": "上海数在科技有限公司南京分公司",
+      "title": "C++开发实习生（27届可转正）",
+      "source_urls": [
+        "https://nuist.91job.org.cn/sub-station/positionList?lmid=C9435D25FD96280EE0530100007F6006&xxdm=10300"
+      ],
+      "status": "南信大就业平台在招；名额未确认",
+      "work_summary": "C++代码开发与功能迭代、调试修复、项目测试、开发文档",
+      "job_workplace": "江苏省南京市浦口区；街道与门牌未获得",
+      "current_open_evidence": "2026-10-24读取南信大就业平台，仍在招并写明招5人、截止2027-09-01",
+      "next_action": "问自动化专业能否投、2028届资格、寒假入职、门牌与转正安排",
+      "last_source_check": {
+        "checked_on": "2026-10-24",
+        "checked_urls": [
+          "https://nuist.91job.org.cn/sub-station/positionList?lmid=C9435D25FD96280EE0530100007F6006&xxdm=10300"
+        ],
+        "result": "平台写浦口区、本科、5人、4天/周、3个月、100-150元/天；截止2027-09-01",
+        "prior_evidence_note": "专业字段为电子信息类、计算机类，未列自动化"
+      }
     }
   ],
   "exclusions": [
@@ -1230,24 +1350,82 @@
       "source_urls": [
         "http://www.yingjiesheng.com/job-008-053-895.html"
       ]
+    },
+    {
+      "id": "X23",
+      "company": "南京镭芯光电有限公司",
+      "title": "人力资源部实习生",
+      "reason": "非技术岗，招10人但专业为工商管理、公共管理类",
+      "source_urls": [
+        "https://nuist.91job.org.cn/sub-station/positionList?lmid=C9435D25FD96280EE0530100007F6006&xxdm=10300"
+      ]
+    },
+    {
+      "id": "X24",
+      "company": "江苏太古可口可乐饮料有限公司",
+      "title": "财务部实岗实习生",
+      "reason": "财务方向，专业限财务会计、财政税务类",
+      "source_urls": [
+        "https://nuist.91job.org.cn/sub-station/positionList?lmid=C9435D25FD96280EE0530100007F6006&xxdm=10300"
+      ]
+    },
+    {
+      "id": "X25",
+      "company": "南京茉豪船舶设计有限公司",
+      "title": "船舶生产设计",
+      "reason": "要求船舶与海洋工程学院本科应届；虽然专业字段含自动化类，培养口径不符",
+      "source_urls": [
+        "https://nuist.91job.org.cn/sub-station/positionList?lmid=C9435D25FD96280EE0530100007F6006&xxdm=10300"
+      ]
+    },
+    {
+      "id": "X26",
+      "company": "南京福加自动化科技有限公司",
+      "title": "电气工程师 / 销售工程师",
+      "reason": "写明2027届；岗位职责是B端项目型销售，不是技术实习",
+      "source_urls": [
+        "https://nuist.91job.org.cn/sub-station/positionList?lmid=C9435D25FD96280EE0530100007F6006&xxdm=10300"
+      ]
+    },
+    {
+      "id": "X27",
+      "company": "矩阵时光数字科技有限公司",
+      "title": "C/C++开发工程师",
+      "reason": "正式校招岗位，JD未写实习性质；不按实习计入",
+      "source_urls": [
+        "https://nuist.91job.org.cn/sub-station/positionList?lmid=C9435D25FD96280EE0530100007F6006&xxdm=10300"
+      ]
+    },
+    {
+      "id": "X28",
+      "company": "江苏鑫康微电子科技有限公司",
+      "title": "DVT芯片测试工程师 / IC版图设计工程师",
+      "reason": "校招全职；DVT岗要求本科3年及以上芯片测试经验",
+      "source_urls": [
+        "https://nuist.91job.org.cn/sub-station/positionList?lmid=C9435D25FD96280EE0530100007F6006&xxdm=10300"
+      ]
+    },
+    {
+      "id": "X29",
+      "company": "南京芯视界微电子科技股份有限公司",
+      "title": "模拟版图工程师 / 数字后端工程师",
+      "reason": "校招全职，要求应届且需版图或后端项目经验；非实习岗",
+      "source_urls": [
+        "https://nuist.91job.org.cn/sub-station/positionList?lmid=C9435D25FD96280EE0530100007F6006&xxdm=10300"
+      ]
     }
   ],
   "updated_on": "2026-10-24",
   "verification_scope": {
     "reviewed_on": "2026-10-24",
     "role_ids": [
-      "P05",
       "P06",
-      "P07",
-      "O02",
-      "Q01",
-      "Q02",
-      "Q03",
-      "Q04"
+      "Q05",
+      "Q06"
     ],
-    "scope": "第二轮读取智联岗位详情与应届生求职网转载页；P01-P04及E01-E06、O01沿用当轮证据，未重新核验",
-    "other_records": "第一轮10-24复核记录与10-23档案保留原证据",
-    "source_freshness": "页面可读不等于企业实时名额；未联系企业，未确认2028届资格与2027寒假入职"
+    "scope": "第三批读取南信大智慧就业平台岗位列表与河海大学就业网转载页；未逐条回访企业官网",
+    "other_records": "P01-P05、P07、O01-O02、Q01-Q04及历史排除记录沿用当轮证据",
+    "source_freshness": "校就业平台在招状态为平台字段；未联系企业，未确认2028届资格与2027寒假入职"
   },
   "related_collections": [
     {
